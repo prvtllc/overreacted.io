@@ -1,193 +1,24 @@
 ---
-title: 为什么我们要写 super(props) ？
-date: '2018-11-30'
-spoiler: 结尾处有彩蛋。
+title: 训练他们间谍，然后当他们拿钱偷窥你时，他们会感到惊讶！？
+date: '2019-03-12'
+spoiler: 训练他们间谍，然后当他们拿钱偷窥你时，他们会感到惊讶！
 ---
 
 
-据说 [Hooks](https://reactjs.org/docs/hooks-intro.html) 势头正盛，不过我还是想略带调侃地从 *class* 的有趣之处开始这篇博客。可还行？
+被告是前中央情报局和国防情报局（DIA）的执行和承包商。 1981年至2012年间，被告在美国各政府机构工作，并清理了国防承包商。他还曾在美国陆军服役。离开他作为承包商的最后一个职位后，被告在这里的相关时间是自营职业者，经营自己大部分不成功的咨询业务。
 
-**这些梗对于使用 React 输出产品并*不*重要，但如果你想深入的了解它们的运作原理，它们会非常的有用。**
+大多数审判​​证据都集中在被告与中国公民Michael Yang的联系和关系上，被告人认为他是中华人民共和国情报局（PRCIS）的情报官员。 2017年2月，一位名叫Richard Yang的中国商业招聘人员通过LinkedIn（一个用于工作网络的社交媒体网站）联系了被告。理查德杨告诉被告，他在中国可能的咨询工作方面处于领先地位。在被告表达了对这种可能的咨询工作的兴趣之后，Richard Yang安排被告与一位名叫Michael Yang的人联系。在美国的被告随后与位于中国的Michael Yang进行Skype通话。电话会议的目的是确定迈克尔杨正在寻求的信息的性质。在这个Skype电话中，Michael Yang显然向被告描述了他正在寻求的信息的性质。被告就Michael Yang表达兴趣的主题做了笔记。被告所做的通知反映了Michael Yang对以下内容感兴趣：美国的THAAD2missile防御系统，南中国海，中华人民共和国的货币操纵以及公私合作伙伴关系，这是政府专家审判的主题作证可能涉及机密信息/国防信息（NDI）。
 
----
+在2月下旬与被告Michael Yang进行最初的Skype通话之后，联系了Ralph Stephenson（Stephenson），一名被告人从被告的教会那里知道，被告也知道在CIA工作过。被告让斯蒂芬森帮助他联系中央情报局处理中国问题的人。斯蒂芬森在审判中作证说，被告的联系使他感到不舒服，因此斯蒂芬森报告了被告与斯蒂芬森联系中情局安全人员的情况。
 
-首先，在这一生中，``super(props)`` 出现在我代码里的次数比我知道的还要多：
+2017年3月初，被告和Michael Yang安排被告前往中国，与Michael Yang和丁先生（假定是Michael Yang的老板）会面。在此行程之前，被告要求Michael Yang向被告提供Apple iPhone，以便被告在被告在中国期间与Michael Yang进行沟通。被告要求Michael Yang在iPhone上安装微信，这是一种在中国流行的通讯应用程序。被告要求Michael Yang将iPhone留在被告酒店的密封信封中，以便在被告的话中被告可以确定iPhone“没有被篡改”。
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+在被告与Michael Yang就被告的iPhone请求进行电子邮件交换后的第二天，被告前往位于华盛顿特区的FedEx商店，被告将9页文件扫描到SD卡上。这些文件未分类，与CIA分析标准，军事情报缩略语和其他主题相关。 2017年3月13日，在被告抵达中国上海后，被告向Michael Yang发送了一封电子邮件，附上了SD卡上的9页扫描文件。正如被告所说，这些附加的九页作为“例子”附上。
 
-当然了，我们可以通过 [class fields proposal](https://github.com/tc39/proposal-class-fields) 来省略这个声明：
+在被告访问中国期间，被告与Michael Yang和丁先生会面了几个小时。被告在后来与中央情报局和联邦调查局特工的访谈中承认，在访问中国期间，被告人明白，杨致远和丁先生实际上是寻求美国政府机密的中国情报官员。
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+2017年4月，被告再次前往中国。在这次访问中，Michael Yang向被告提供了三星Galaxy Note 4智能手机，被告称其为隐蔽通信（covcom）设备。这个covcom设备包括一个自定义应用程序，允许被告通过WeChat发送加密通信给Michael Yang，这是一个加载在covcom设备上的程序。被告在中国期间，Michael Yang对如何使用covcom设备通过加密消息与Michael Yang进行安全通信进行了培训。
 
-早在 2015 年 React 0.13 已经[计划支持](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) 。在当时，声明 `constructor` 和调用 `super(props)` 一直被视作暂时的解决方案，直到有合适的类字段声明形式。
+被告随后返回美国，首先登陆芝加哥。当被问及covcom设备时，被告错误告诉CBP官员，covcom设备是送给妻子的礼物。 CBP官员允许被告保留16,500美元和covcom设备，然后返回他位于弗吉尼亚州利斯堡的家中。
 
-但在此之前，我们先回到 ES2015 风格的代码：
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**为什么我们要调用 `super`，我们可以不这么做吗？那么在我们调用它时不传入 `props`，又会发生什么呢？会有其他的缺省参数吗？**接来下我们就解开这一系列谜题。
-
----
-
-在 JavaScript 中，`super` 指的是父类（即超类）的构造函数。（在我们的例子中，它指向了 `React.Component` 的实现。）
-
-值得注意的是，在调用父类的构造函数之前，你是不能在 constructor 中使用 `this` 关键字的。JavaScript 不允许这个行为。
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴  还不能使用 `this`
-    super(props);
-    // ✅  现在可以了
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-JavaScript 有足够合理的动机来强制你在接触 `this` 之前执行父类构造函数。考虑考虑一些类层次结构的东西：
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴  这是禁止的，往后见原因
-    super(name);
-  }
-  greetColleagues() {
-    alert('Good morning folks!');
-  }
-}
-```
-
-试想一下，在调用 `super` 之前使用 `this` 不被禁止的情况下，一个月后，我们可能在 `greetColleagues` 打印的消息中使用了 person 的 name 属性：
-
-```jsx
-  greetColleagues() {
-    alert('Good morning folks!');
-    alert('My name is ' + this.name + ', nice to meet you!');
-  }
-```
-
-但是我们并未想起 `this.greetColleagues` 在 `super()` 给 `this.name` 赋值前就已经执行。`this.name` 此时甚至尚未定义。可以看到，这样的代码难以往下推敲。
-
-为了避免落入这个陷阱，**JavaScript 强制你在使用 `this` 之前先行调用 `super`。**让父类来完成这件事情！：
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ 能使用 `this` 了
-    this.state = { isOn: true };
-  }
-```
-
-这里留下了另一个问题：为什么要传入 `props` ？
-
----
-
-你或许会想到，为了让 React.Component 构造函数能够初始化 `this.props`，将 `props` 传入 `super` 是必须的：
-
-
-```jsx
-// React 內部
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-这几乎就是真相了 — 确然，它是 [这样做](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22) 的。
-
-但有些扑朔迷离的是，即便你调用 `super()` 的时候没有传入 `props`，你依然能够在 `render` 函数或其他方法中访问到 `this.props`。（如果你质疑这个机制，尝试一下即可）
-
-那么这是怎么做到的呢？事实证明，React 在调用构造函数后也立即将 `props` 赋值到了实例上：**
-
-```jsx
-  // React 内部
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-因此即便你忘记了将 `props` 传给 `super()`，React 也仍然会在之后将它定义到实例上。这么做是有原因的。
-
-当 React 增加了对类的支持时，不仅仅是为了服务于 ES6。其目标是尽可能广泛地支持类抽象。当时我们 [不清楚](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages)  ClojureScript，CoffeeScript，ES6，Fable，Scala.js，TypeScript 等解決方案是如何成功的实践组件定义的。因而 React 刻意地没有显式要求调用 `super()` —— 即便 ES6 自身就包含这个机制。
-
-这意味着你能够用 `super()` 代替 `super(props)` 吗？
-
-**最好不要，毕竟这样写在逻辑上并不明确**确然，React 会在构造函数执行完毕*之后*给 `this.props` 赋值。但如此为之会使得 `this.props` 在 `super` 调用*一直到构造函数结束期间*值为 undefined。
-
-
-```jsx{14}
-// React 內部
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// 你的程式碼內部
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 我们忘了传入 props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 未定义
-  }
-  // ...
-}
-```
-
-如果在构造函数中调用了其他的内部方法，那么一旦出错这会使得调试过程阻力更大。**这就是我建议开发者一定执行 `super(props)` 的原因，即使理论上这并非必要：**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ 传入 props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-确保了 `this.props` 在构造函数执行完毕之前已被赋值。
-
------
-
-最后，还有一点是 React 爱好者长期以来的好奇之处。
-
-你会发现当你在类中使用 Context API （无论是旧版的 `contextTypes` 或是在 React 16.6 更新的新版 `contextTypes`）的时候，`context` 是作为第二个参数传入构造函数的。
-
-那么为什么我们不能转而写成 `super(props, context)` 呢？我们当然可以，但 context 的使用频率较低，因而并没有掘这个坑。
-
-**class fields proposal 出台后，这些坑大部分都会自然地消失**在没有显示的定义构造函数的情况下，以上的属性都会被自动地初始化。这使得像 `state = {}` 这类表达式能够在需要的情况下引用 `this.props` 和 `this.context` 的内容。
-
-然而，有了 Hooks 以后，我们几乎就不需要 `super` 和 `this` 了。但那就是另一个下午的茶点了。
+2017年4月25日，被告访问了位于弗吉尼亚州利斯堡的家附近的联邦快递店。监视录像

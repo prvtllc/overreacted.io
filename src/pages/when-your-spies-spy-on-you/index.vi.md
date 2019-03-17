@@ -1,193 +1,24 @@
 ---
-title: Tại sao chúng ta phải viết super(props)?
-date: '2018-11-30'
-spoiler: Có một twist ở cuối bài.
+title: Huấn luyện họ làm gián điệp sau đó hành động bất ngờ khi họ lấy tiền để do thám BẠN!
+date: '2019-03-12'
+spoiler: Huấn luyện họ làm gián điệp sau đó hành động bất ngờ khi họ lấy tiền để do thám BẠN!.
 ---
 
 
-Tôi đã nghe [Hooks](https://reactjs.org/docs/hooks-intro.html) là một thứ mới nóng bỏng. Cơ mà, tôi muốn bắt đầu bài viết này bằng cách nói về điều thú vị của *class* components.
+Bị cáo là cựu nhân viên và nhà thầu của CIA và Cơ quan Tình báo Quốc phòng (DIA). Từ năm 1981 đến 2012, bị cáo làm việc cho nhiều cơ quan chính phủ Hoa Kỳ và xóa các nhà thầu quốc phòng. Ông cũng phục vụ một số thời gian làm nhiệm vụ tích cực trong Quân đội Hoa Kỳ. Sau khi rời vị trí cuối cùng với tư cách là một nhà thầu, bị cáo, vào những thời điểm có liên quan ở đây, đã tự làm chủ, điều hành công việc tư vấn phần lớn không thành công của riêng mình.
 
-**Những vấn đề này *không* quan trọng cho việc sử dụng React một cách hiệu quả. Nhưng bạn sẽ cảm thấy chúng thú vị nếu như bạn muốn tìm hiểu sâu hơn về cách hoạt động của chúng.**
+Phần lớn các bằng chứng xét xử tập trung vào các mối liên hệ và mối quan hệ của bị cáo với Michael Yang, một công dân của PRC, bị cáo tin rằng là một nhân viên tình báo của cơ quan tình báo PRC (PRCIS). Vào tháng 2 năm 2017, một nhà tuyển dụng doanh nghiệp Trung Quốc tên Richard Yang đã liên lạc với bị cáo thông qua LinkedIn, một trang web truyền thông xã hội được sử dụng cho mạng lưới việc làm. Richard Yang nói với bị cáo rằng anh ta đã dẫn đầu về công việc tư vấn có thể có ở Trung Quốc. Sau khi bị cáo bày tỏ sự quan tâm đến công việc tư vấn có thể này, Richard Yang đã sắp xếp để bị cáo liên lạc với một cá nhân tên Michael Yang. Bị cáo, người đã ở Hoa Kỳ, sau đó tham gia vào một cuộc gọi Skype với Michael Yang, người được đặt tại Trung Quốc. Mục đích của cuộc gọi là xác định bản chất của thông tin mà Michael Yang đang tìm kiếm. Trong cuộc gọi Skype này, Michael Yang rõ ràng được mô tả cho bị cáo về bản chất của thông tin mà anh ta, Michael Yang, đang tìm kiếm. Bị cáo đã ghi chép về các chủ đề mà Michael Yang đã bày tỏ sự quan tâm. Các ghi chú bị cáo thực hiện cuộc gọi phản ánh rằng Michael Yang quan tâm đến các vấn đề sau: hệ thống phòng thủ THAAD2missile của Hoa Kỳ, Biển Đông, thao túng tiền tệ của PRC và quan hệ đối tác công tư, một chủ đề mà một chuyên gia chính phủ tại phiên tòa làm chứng có thể liên quan đến thông tin được phân loại / thông tin quốc phòng (NDI).
 
-Đây là bài đầu tiên.
+Sau cuộc gọi Skype ban đầu với Michael Yang, bị cáo, vào cuối tháng 2, đã liên lạc với Ralph Stephenson (Stephenson), một người bị cáo biết từ nhà thờ bị cáo và người bị cáo cũng biết làm việc tại CIA. Bị cáo yêu cầu Stephenson giúp anh ta liên lạc với ai đó tại CIA làm việc về các vấn đề Trung Quốc. Stephenson làm chứng tại phiên tòa rằng việc liên lạc với bị cáo đã khiến anh ta không thoải mái và theo đó Stephenson đã báo cáo các liên hệ của bị cáo với Stephenson với các nhân viên an ninh của CIA.
 
----
+Đầu tháng 3 năm 2017, bị cáo và Michael Yang đã sắp xếp cho bị cáo đi đến Trung Quốc để gặp Michael Yang và ông Đinh, ông chủ của Michael Yang. Trước chuyến đi, bị cáo đã yêu cầu Michael Yang cung cấp cho bị cáo một chiếc iPhone của Apple để bị cáo sử dụng để liên lạc với Michael Yang khi bị cáo đang ở PRC. Bị cáo yêu cầu Michael Yang cài đặt WeChat, một ứng dụng liên lạc phổ biến trong PRC, được cài đặt trên iPhone. Bị cáo yêu cầu Michael Yang để lại iPhone trong một phong bì dán kín trong khách sạn của bị cáo để để bị cáo nói lời bị cáo có thể chắc chắn rằng iPhone đã không bị giả mạo.
 
-Tôi đã viết `super(props)` rất nhiều lần hơn là tôi biết:
+Ngày hôm sau khi bị cáo trao đổi email với Michael Yang liên quan đến yêu cầu của bị cáo về một chiếc iPhone, bị cáo đã đến một cửa hàng FedEx ở Washington D.C. nơi bị cáo có chín trang tài liệu được quét vào thẻ SD. Các tài liệu này không được phân loại và liên quan đến các tiêu chuẩn phân tích của CIA, các từ viết tắt của tình báo quân sự và các chủ đề khác. Vào ngày 13 tháng 3 năm 2017, sau khi bị cáo đến Thượng Hải, Trung Quốc, bị cáo đã gửi email cho Michael Yang đính kèm chín trang tài liệu được quét từ thẻ SD. Như bị cáo đã nói, chín trang đính kèm này được đính kèm dưới dạng ví dụ.
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Trong chuyến thăm này của bị cáo đến Trung Quốc, bị cáo đã gặp nhau vài giờ với Michael Yang và ông Đinh. Bị cáo trong các cuộc phỏng vấn sau đó với các nhân viên CIA và FBI thừa nhận rằng trong chuyến thăm này, bị cáo PRC hiểu rằng Michael Yang và ông Đinh thực tế là các quan chức tình báo của PRC đang tìm kiếm bí mật của Chính phủ Hoa Kỳ.
 
-Dĩ nhiên, nếu áp dụng [class fields proposal](https://github.com/tc39/proposal-class-fields) thì có thể bỏ qua chúng:
+Vào tháng 4 năm 2017, một lần nữa bị cáo đi đến Trung Quốc. Trong chuyến đi này, Michael Yang đã cung cấp cho bị cáo một điện thoại thông minh Samsung Galaxy Note 4, bị cáo mô tả là một thiết bị liên lạc bí mật (covcom). Thiết bị covcom này bao gồm một ứng dụng tùy chỉnh cho phép bị cáo gửi thông tin liên lạc được mã hóa đến Michael Yang thông qua WeChat, một chương trình được tải trên thiết bị covcom. Trong khi bị cáo ở PRC, Michael Yang đã huấn luyện bị cáo về cách sử dụng thiết bị covcom để liên lạc an toàn với Michael Yang thông qua các tin nhắn được mã hóa.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+Bị cáo sau đó trở về Hoa Kỳ, hạ cánh đầu tiên ở Chicago. Khi được hỏi về thiết bị covcom, bị cáo đã nói sai với các nhân viên CBP rằng thiết bị covcom là một món quà dành cho vợ. Các nhân viên CBP cho phép bị cáo giữ lại cả 16.500 đô la và thiết bị covcom, sau đó trở về nhà ở Leesburg, Virginia.
 
-Cú pháp như thế này [đã lên kế hoạch](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) khi React 0.13 đã hỗ trợ cho một lớp đơn giản trong năm 2015. Định nghĩa `constructor` khi gọi `super(props)` luôn được dự định tạm thời cho đến khi các thuộc tính của lớp cung cấp một sự thay thế tốt hơn.
-
-Nhưng hãy quay về ví dụ trước khi chỉ sử dụng các tính năng của ES2015:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Tại sao chúng ta lại gọi `super`? Chúng ta có thể *không* gọi chúng được không? Nếu chúng ta gọi chúng, thì chuyện gì sẽ xảy ra nếu chúng ta không trả cho nó `props`? Chúng ta có thể cho nó các tham số khác được không?** Cùng tìm hiểu nào.
-
----
-
-Trong JavaScript, `super` để gọi lại constructor của lớp cha. (Trong ví dụ của chúng ta, đấy chính là lớp `React.Component`.)
-
-Điều quan trọng, bạn không thể sử dụng `this` trong constructor cho đến lúc *sau khi* bạn gọi đến constructor của lớp tra. JavaScript sẽ không để bạn làm việc này:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴  Không thể dùng `this` được
-    super(props);
-    // ✅  Giờ thì dùng được rồi
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Có một lý do chính đáng giải thích vì sao JavaScript phải thực hiện constructor của lớp cha trước khi đụng vào `this`. Hãy xem xét trường hợp sau:
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴  Điều này không cho phép, đọc lý do ở bên dưới
-    super(name);
-  }
-  greetColleagues() {
-    alert('Chào buổi sáng!');
-  }
-}
-```
-
-Hãy tưởng tượng khi bạn dùng `this` trước `super`  *đã* chấp thuận. Một tháng sau, chúng ta đổi `greetColleagues` bao gồm có tên người đó trong lời nhắn:
-
-```jsx
-  greetColleagues() {
-    alert('Chào buổi sáng!');
-    alert('Tên tôi là ' + this.name + ', rất vui được gặp bạn!');
-  }
-```
-
-Nhưng chúng ta quên rằng `this.greetColleagues()` được gọi trước `super()` lúc mà `this.name` được thiết lập. Vì thế `this.name` chưa được định nghĩa! Lúc này bạn có thể thấy, code như thế này có thể rất khó khăn.
-
-Để tránh những điều như vậy, **JavaScript chỉ định rằng nếu bạn muốn sử dụng `this` bên trong constructor, bạn *phải* gọi `super` trước.** Để cho thằng cha làm việc của nó! Và điều này cũng áp dụng với các lớp React components:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅  Okay, dùng `this` được rồi
-    this.state = { isOn: true };
-  }
-```
-
-Chúng ta cùng đến với câu hỏi khác: phải sao phải truyền vào `props`?
-
----
-
-Bạn hãy nghĩ đơn giản rằng khi truyền `props` vào `super` là sự cần thiết để `React.Component` constructor có thể thiết lập `this.props`:
-
-```jsx
-// Bên trong React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Điều này không xa với thực tế — thật sự, đó là [cách mà chúng thực hiện](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-Nhưng bằng cách nào đó, nếu bạn gọi `super()` mà không có tham số `props`, bạn vẫn có thể sử dụng `this.props` trong phương thức `render` và các phương thức khác. (Nếu không tin tôi, hãy tự kiểm tra xem!)
-
-Vậy *nó* hoạt động như thế nào? Hóa ra **React đã gán `props` cho một instance ngay sau constructor *của bạn*:**
-
-```jsx
-  // Bên trong React
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-Thế nên khi bạn quên bỏ thằng `props` vào `super()`, thì trong React bạn vẫn có thể gọi nó sau đó. Có một lý do cho việc này.
-
-Khi React thêm sự hỗ trợ cho các lớp, nó không chỉ hỗ trợ cho các lớp mỗi phiên bản ES6. Mà mục tiêu chính là hỗ trợ nhiều phiên bản lớp nhất có thể. Nó đã [không rõ](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) làm thế nào để có thể ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript, hoặc các giải pháp khác có thể định nghĩa  components. Vì vậy React đã cố ý không quan tâm dến việc có gọi `super()` hay không — mặc dùng đó là lớp ES6.
-
-Vậy có nghĩa là bạn có thể gọi `super()` thay vì `super(props)`?
-
-**Có lẽ là không bởi vì nó vẫn còn khó hiểu.** Chắc chắn, React sẽ gán `this.props` *sau khi*  constructor của bạn được chạy. Nhưng `this.props` vẫn chưa được định nghĩa *giữa* việc gọi `super` và kết thúc constructor của bạn:
-
-```jsx{14}
-// Bên trong React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Bên trong code của bạn
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 Chúng ta không thả vào props nhá
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined - chưa định nghĩa 
-  }
-  // ...
-}
-```
-
-Việc debug sẽ trở nên khó khăn nếu như một vài phương thức được gọi *từ* constructor. **Đó là lý do vì sao tôi khuyên khích bạn sử dụng `super(props)`, mặc dù nó không cần thiết:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ Chúng ta thả props vào 
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Điều này đảm bảo `this.props` sẽ được thiết lập trong constructor.
-
------
-
-Có một điều cuối mà khiến cho các fan lâu năm của React tò mò.
-
-Bạn có thể thấy rằng khi sử dụng Context API bên trong các lớp (hoặc với `contextTypes` cũ ohoặc với `contextType` API được thêm vào ở React 16.6), `context` được đẩy vào tham số thứ hai trong constructor.
-
-Vậy tại sao chúng ta không viết là `super(props, context)`? Có thể chứ, nhưng context ít khi sử dụng nên việc dính vào lỗi cũng ít xuất hiện.
-
-**Với đề xuất thuộc tính của lớp (the class fields proposal) thì những vấn đề này hầu như biến mất.** Không có constructor rõ ràng, tất cả các tham số đều được thả vào một cách tự động. Đây là những lý do cho phép một biểu thức `state = {}` bao gồm cả các tham chiếu `this.props` hoặc `this.context` nếu cần thiết.
-
-Với Hooks, chúng ta thậm chí không có `super` hoặc `this`. Nhưng chủ đề đó sẽ giành cho một ngày khác.
+Vào ngày 25 tháng 4 năm 2017, bị cáo đã ghé thăm một cửa hàng FedEx tại một địa điểm gần nhà của anh ta ở Leesburg, Virginia. Cảnh quay từ giám sát

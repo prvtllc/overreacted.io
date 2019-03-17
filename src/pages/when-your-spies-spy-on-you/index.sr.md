@@ -1,193 +1,24 @@
 ---
-title: Zašto pišemo super(props)?
-date: '2018-11-30'
-spoiler: Ima jedan obrt na kraju.
+title: Обучите их да шпијунирају и онда се изненадите када узму новац да вас шпијунирају!
+date: '2019-03-12'
+spoiler: Обучите их да шпијунирају и онда се изненадите када узму новац да вас шпијунирају!.
 ---
 
 
-Čuo sam da su [hukovi](https://reactjs.org/docs/hooks-intro.html) sada u modi. Ironično je, ali hoću da započnem ovaj blog pričom o zanimljivim stvarima vezanim za *klasne* komponente. Ma vidi ti to!
+Оптужени је бивши ЦИА и одбрамбена обавјештајна агенција (ДИА) оперативац и извођач. Између 1981. и 2012. године, оптужени је радио за разне владине агенције САД-а и одобрио извођаче одбране. Такође је неко време био на активној дужности у америчкој војсци. Након што је напустио своју задњу позицију извођача радова, окривљени је, у вријеме које је овдје релевантно, био самозапослен, послујући својим углавном неуспјешним консултантским послом.
 
-**Ove smicalice *nisu* važne za produktivnost u React-u. Ali možda vam bude zabavno da malo dublje pročačkate kako stvari rade.**
+Већина доказа на суђењу била је усредсређена на контакте и односе окривљеног са Мицхаелом Иангом, грађанином НР Кине који је сматрао да је обавештајни официр за обавештајну службу НРК-а (ПРЦИС). У фебруару 2017. године, кинески пословни регрут по имену Рицхард Ианг контактирао је окривљеног путем ЛинкедИна, веб сајта друштвених медија који се користи за умрежавање послова. Рицхард Ианг је оптуженом рекао да је водио о могућем савјетодавном раду у НР Кини. Након што је оптужени изразио интерес за овај могући консултантски посао, Рицхард Ианг је договорио да оптужени контактира особу по имену Мицхаел Ианг. Оптужени, који је био у Сједињеним Америчким Државама, а затим је учествовао у Скипе позиву са Мицхаел Ианг, који се налазио у ПРЦ. Сврха позива била је да се одреди природа информација које је Мицхаел Ианг тражио. У овом Скипе позиву, Мицхаел Ианг је наводно окривљеном описао природу информација које је тражио Мицхаел Ианг. Оптужени је водио белешке о темама у којима је Мицхаел Ианг изразио интерес. Белешке које је оптужени изнио у вези са позивом одражавају чињеницу да је Мицхаел Ианг био заинтересован за следеће: систем одбране САД-а ТХААД2, Јужнокинеско море, манипулација валутама од стране НРК-а и јавно-приватна партнерства, предмет који владин експерт на суђењу сведочење може укључивати класификоване информације / информације националне одбране (НДИ).
 
-Evo prve.
+Након почетног Скипе разговора са Мицхаелом Иангом, оптужени је крајем фебруара контактирао Ралпха Степхенсона (Степхенсон), оптужени је знао од оптужене цркве и да је оптужени знао да је радио у ЦИА-и. Оптужени је затражио од Степхенсона да му помогне да контактира некога из ЦИА-е радећи на питањима Кине. Степхенсон је свједочио на суђењу да га је оптужеников контакт учинио неугодним и сходно томе Степхенсон је пријавио окривљене контакте са Степхенсоном агентима сигурности ЦИА-е.
 
----
+Почетком марта 2017., оптужени и Мицхаел Ианг договорили су да оптужени путује у ПРЦ како би се састао са Мицхаелом Иангом и г. Дингом, претпостављено шефом Мицхаела Ианга. Уочи путовања, оптужени је затражио од Мицхаела Ианга да оптуженом пружи Аппле иПхоне за окривљеног за комуникацију с Мицхаелом Иангом док је оптужени био у ПРЦ-у. Оптужени је замолио Мицхаела Ианга да ВеЦхат, комуникацијску апликацију популарну у ПРЦ-у, инсталира на иПхоне. Оптужени је тражио да Мицхаел Ианг остане у запечаћеној коверти у хотелу оптуженог, тако да оптужени у својим речима може да буде сигуран да иПхоне није „промењен“.
 
-Napisao sam `super(props)` više puta u životu nego što bih hteo da znam:
+Дан након што је оптужени размијенио е-маил са Мицхаелом Иангом у вези са захтјевом окривљеног за иПхоне, оптужени је отишао у ФедЕк трговину у Васхингтону Д.Ц. гдје је оптужени имао девет страница скенираних докумената на СД картицу. Ови документи нису били класификовани и односе се на ЦИА-ине стандарде анализе, акрониме војне обавештајне службе и друге теме. 13. марта 2017., након што је оптужени стигао у Шангај, Кина, оптужени је послао е-маил Мицхаелу Иангу који је приложио девет страница скенираних докумената са СД картице. Као што је оптужени рекао, ове приложене девет страница су приложене као “примјери”.
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Током ове посете окривљеног ПРЦ, оптужени се неколико сати састао са Мицхаелом Иангом и господином Дингом. Оптужени је у својим каснијим разговорима са ЦИА-ом и агентима ФБИ-а признао да су током ове посјете окривљеном из НРК-а схватили да су Мицхаел Ианг и г. Динг заправо дужносници НРК-а који траже тајне владе САД-а.
 
-Naravno, [predlog o poljima klase (class fields)](https://github.com/tc39/proposal-class-fields) nam omogućava da preskočimo ovu ceremoniju:
+У априлу 2017. године, оптужени је поново отпутовао у НРК. На овом путовању је Мицхаел Ианг окривљеном обезбедио смартфон Самсунг Галаки Ноте 4, који је оптужени описао као тајни комуникациони уређај (цовцом). Овај Цовцом уређај је садржавао прилагођену апликацију која је омогућила окривљеном да шифриране комуникације пошаље Мицхаелу Иангу кроз ВеЦхат, програм који је учитан на цовцом уређају. Док је оптужени био у ПРЦ-у, Мицхаел Ианг је обучио оптуженог како да користи цовцом уређај за сигурну комуникацију са Мицхаел Ианг-ом путем шифрованих порука.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+Оптужени се затим вратио у Сједињене Државе, први пут у Чикагу. На питање о цовцом уређају, оптужени је лажно рекао полицајцима ЦБП-а да је цовцом уређај поклон за његову жену. Службеници ЦБП-а дозволили су окривљеном да задржи и 16.500 долара и Цовцом уређај, а затим да се врати својој кући у Леесбург, Виргиниа.
 
-Ovakva sintaksa je bila [planirana](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) kada je 2015. godine u verziji 0.13 dodata podrška za obične klase. Definisanje konstruktora i poziv `super(props)` je oduvek i trebalo da bude samo privremeno rešenje, dok polja klase ne postanu zadovoljavajuća alternativa.
-
-Ali da se vratimo na ovaj primer koji koristi samo stvari iz ES2015:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Zašto zovemo `super`? Da li možemo da ga *ne* pozovemo? Ako moramo, šta se desi kad ne prosledimo `props`? Ima li još argumenata?** Hajde da vidimo.
-
----
-
-U JavaSkriptu, `super` pokazuje na konstruktor roditeljske klase. (U našem primeru, pokazuje na implementaciju `React.Component`).
-
-Važno je obratiti pažnju na to da `this` ne može da se koristi u konstrukturu sve dok se ne pozove *roditeljski* konstruktor. JavaSkript neće da vam dozvoli to:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Još ne smemo da koristimo `this`
-    super(props);
-    // ✅ Ali sad je okej
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Postoji dobar razlog zašto JavaSkript primorava pozivanje roditeljskog konstruktora pre nego što se petlja oko `this`-a. Zamislite ovakvu hijerarhiju:
-
-```jsx
-class Osoba {
-  constructor(ime) {
-    this.ime = ime;
-  }
-}
-
-class UčtivaOsoba extends Osoba {
-  constructor(ime) {
-    this.pozdraviKolege(); // 🔴 Ovo nije dozvoljeno, vidi dole zašto
-    super(ime);
-  }
-  pozdraviKolege() {
-    alert('Dobro jutro, narode!');
-  }
-}
-```
-
-Zamislimo da `this` pre `super` ipak *jeste* dozvoljeno. Mesec dana kasnije, možda promenimo `pozdraviKolege` da sadrži i ime osobe u poruci:
-
-```jsx
-  pozdraviKolege() {
-    alert('Dobro jutro, narode!');
-    alert('Ja sam ' + this.ime + ', drago mi je!');
-  }
-```
-
-Ali zaboravili smo da se `this.pozdraviKolege()` zove pre nego što poziv funkcije `super()` stigne da postavi `this.ime`. Znači da `this.ime` još nije ni definisano! Kao što vidite, o ovakvom kodu je jako teško razmišljati.
-
-Da se ne bismo opekli, **JavaSkript nas *tera* prvo da pozovemo `super`, ako hoćemo da koristimo `this` u konstruktoru.** Neka roditelj prvo obavi svoje! A ovo ograničenje važi i za React komponente definisane kao klase:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Ovde ispod možemo da koristimo `this`
-    this.state = { isOn: true };
-  }
-```
-
-Ali i dalje je ostalo jedno pitanje: zašto prosleđujemo `props`?
-
----
-
-Možda se čini da je prosleđivanje `props`-a `super`-u obavezno da bi konstruktor osnovne klase `React.Component` mogao da inicijalizuje `this.props`:
-
-```jsx
-// React-ov kôd
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-I to nije daleko od istine: tako i [radi](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-Ali nekako, čak i kad pozovete `super()` bez argumenta `props`, i dalje možete da pripstupite `this.props` u `render`-u i drugim metodama. (Ako mi ne verujete, probajte sami!)
-
-A kako *to* radi? Ispostavlja se da **i React dodeljuje `props` instanci odmah nakon što pozove *vaš* konstruktor:**
-
-```jsx
-  // React-ov kôd
-  const instance = new VašaKomponenta(props);
-  instance.props = props;
-```
-
-Prema tome, čak i da zaboravite da prosledite `props` kad zovete `super()`, React će ih ipak dobro postaviti kasnije. A postoji i razlog za to.
-
-Kad je React dodao podršku za klase, nije dodao podršku samo za ES6 klase. Cilj je bio najširi mogući opseg apstrakcija klasa. [Nije bilo jasno](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) koliko će uspešna biti rešenja za definisanje komponenti kao što su ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript, i druga. Zato React namerno nije donosio odluku o tome da li se `super()` mora pozvati ili ne (iako je poziv obavezan kod ES6 klasa).
-
-Da li to onda znači da možete da napišete `super()` umesto `super(props)`?
-
-**Verovatno ne jer je i dalje zbunjujuće.** Da, React će *nakon* izvršetka vašeg konstruktora da izvrši dodelu u `this.props`. Ali `this.props` će i dalje biti nedefinisano *između* poziva `super` i kraja konstruktora:
-
-```jsx{14}
-// React-ov kod
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Inside your code
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 Zaboravili smo na props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined 
-  }
-  // ...
-}
-```
-
-Ovo može biti još teže za debagiranje ako se desi u nekoj metodi koju *zove* konstruktor. **I zato se uvek preporučuje da se prosledi `super(props)`, iako nije striktno obavezno:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ Prosledili smo props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Ovim smo se osigurali da je `this.props`-u dodeljena vrednost čak i pre nego što se izađe iz konstruktora.
-
----
-
-Ima još jedna stvar koja možda zanima one koji React koriste duže vreme.
-
-Možda ste primetili da, kada koristite Context API u klasama (bilo sa zaostavštinom `contextTypes` ili sa modernim `contextType` API-jem dodatim u verziji 16.6), `context` se prosleđuje kao drugi agrument konstruktora.
-
-Zašto onda ne pišemo `super(props, context)`? Mogli bismo, ali kontekst se koristimo mnogo ređe pa se cela ova zavrzlama ređe dešava.
-
-**Sve to svakako nestaje kad se uzme u obzir predlog o poljima klase.** Bez eksplicitnog konstruktora, svi argumenti se automatski prosleđuju. Ovo omogućava da izrazi kao `state = {}` uključe reference na `this.props` ili `this.context` ako je to neophodno.
-
-Sa hukovima, nemamo ni `super` ni `this`. Ali to je priča za drugi put.
+Дана 25. априла 2017., оптужени је посетио продавницу ФедЕк-а на локацији у близини своје куће у Леесбургу, у Виргинији. Снимци из надзора
