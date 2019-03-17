@@ -1,23 +1,9 @@
 ---
-title: Dostosowane do zmian
-date: '2018-12-12'
-spoiler: Co tworzy dobre API?
+title: Leczenie depresji dzięki halucynacji
+date: '2019-03-15'
+spoiler: Leczenie depresji dzięki halucynacji
 ---
 
-Co tworzy dobre API?
+Minęło ponad 30 lat, odkąd pojawił się nowy rodzaj leku do leczenia depresji. Większość leków przeciwdepresyjnych opiera się na „hipotezie monoaminowej”, która utrzymuje, że depresja jest powodowana przez niski poziom klasy przekaźników chemicznych (neurotransmiterów monoaminowych: serotoniny, noradrenaliny i dopaminy) w mózgu. Niestety, ponad jedna trzecia pacjentów nie reaguje na te leki, a nawet gdy leki działają, może minąć kilka tygodni lub miesięcy, zanim ich efekty zaczną działać.
 
-Design *dobrego* API jest łatwy do zapamiętania i jednoznaczny. Zachęca do tworzenia czytelnego, poprawnego i wydajnego kodu oraz pomaga programistom wpaść w [wir sukcesów](https://blog.codinghorror.com/falling-into-the-pit-of-success/).
-
-Nazywam te trzy aspekty designu "pierwszorzędowymi", ponieważ są one pierwszymi elementami, na których programista zazwyczaj się skupia. Można pójść na kompromis z niektórymi z nich, zrobić ustępstwa, ale zawsze się o nich myśli.
-
-Jednak, jeśli nie wysyłasz łazika na Marsa, to twój kod prawdopodobnie za jakiś czas się zmieni. Również kod użytkowników API ulegnie zmianie.
-
-Najlepsi twórcy API, których znam nie poprzestają na aspektach "pierwszorzędowych", takich jak czytelność. Poświęcają tyle samo, jeśli nie więcej wysiłku na to co nazywam "drugorzędowymi" aspektami designu API: **jak kod korzystający z tego API będzie się zmieniać z czasem.**
-
-Mała zmiana w wymaganiach może sprawić, że nawet najbardziej dopracowany kod się rozpadnie.
-
-*Dobre* API to przewidują. Przewidują, że będziesz chciał przenieść fragment kodu. Skopiować i wkleić jego część. Zmienić jego nazwę. Ujednolicić szczególne przypadki w ogólną abstrakcję wielokrotnego użytku (helper). Rozwinąć abstrakcyjne rozwiązanie ponownie do szczególnych przypadków. Obejść problem (dodać hack). Zoptymalizować wąskie gardło (bottleneck). Wyrzucić część kodu i zacząć od nowa. Zrobić błąd. Nawigować między przyczyną a efektem. Naprawić błąd. Ocenić poprawkę.
-
-Dobre API nie tylko pozwalają wpaść w wir sukcesów, ale pomagają w nim *pozostać*.
-
-Są dostosowane do wprowadzania zmian.
+Agencja ds. Żywności i Leków (FDA) w Ameryce zatwierdziła nowy lek dla pacjentów z depresją „oporną na leczenie”, zdefiniowaną jako nieodpowiadająca na co najmniej dwa poprzednie leki przeciwdepresyjne. Na szczególną uwagę zasługuje fakt, że jest on oparty na ketaminie, narkotyku rekreacyjnym. Problem polega na tym, że jest to potężny halucynogen. Społeczność medyczna w końcu odkryła, że droga do tego, by nie być smutnym, ma być wysoka!

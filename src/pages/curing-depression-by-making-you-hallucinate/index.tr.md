@@ -1,24 +1,9 @@
 ---
-title: Değişim için optimize edildi
-date: '2018-12-12'
-spoiler: Bir API'yi harika yapan nedir?
+title: Sizi Halüsinat Yaparak Depresyon Tedavisi
+date: '2019-03-15'
+spoiler: Sizi Halüsinat Yaparak Depresyon Tedavisi
 ---
 
-Bir API'yi harika yapan nedir?
+Depresyon tedavisi için yeni bir ilaç türünün piyasaya sunulmasından bu yana 30 yıldan fazla bir süre geçti. Antidepresanların çoğu, beyindeki depresyonun düşük seviyeli bir kimyasal haberci (monoamin nörotransmiterleri: serotonin, norepinefrin ve dopamin) sınıfından kaynaklandığını belirten “monoamin hipotezine” dayanmaktadır. Ne yazık ki, hastaların üçte birinden fazlası bu ilaçlara cevap vermekte başarısız oluyor ve ilaçların işe yaraması durumunda bile etkilerinin başlaması haftalar veya aylar sürebiliyor.
 
-*İyi* bir API tasarımı akılda kalıcı ve açıktır. Açık, doğru ve etkili kod oluşturulmasını teşvik eder ve geliştiricilerin [başarının sınırları](https://blog.codinghorror.com/falling-into-the-pit-of-success/)nı aşmasına yardımcı olur.
-
-Buna “birinci dereceden“ tasarım yönleri diyorum, çünkü bunlar programcının genellikle odaklandığı ilk öğelerdir. Bazılarını tehlikeye atmanız ve taviz vermeniz gerekebilir, ancak en azından onlar daima aklınızdadır.
-
-Ancak, Mars’a bir gezici göndermiyorsanız, kodunuz muhtemelen zaman içinde değişecektir. Aynı şey, API'nızı kullanan kod için de geçerlidir.
-
-Bildiğim en iyi API tasarımcıları okunabilirlik gibi sadece “birinci dereceden“ özelliklerden memnun değiller. "İkinci mertebeden" API tasarımı dediğim şeye daha fazla çaba harcıyorlar: **Bu API'yi kullanan kodun zaman içinde nasıl değişeceği.**
-
-Teknik özelliklerdeki en küçük değişiklik, en şık kodu kullanılamaz hale getirebilir.
-
-*İyi* API'ler bunu öngörür. Kodu taşıma ihtiyacınızı tahmin ederler. Bazı parçaları kopyalayıp yapıştırın. Onları yeniden adlandırın. Özel durumları, çoklu kullanım için genel bir asistanda birleştirin. 
-Soyutlamayı belirli bir duruma geri döndürün. Daha fazla kod yazın... Hata yapın. Sebep ve sonuç arasında gezinin. Hatayı düzeltip, gözden geçirin.
-
-Harika API'ler yalnızca başarının sınırlarını aşmanıza yardımcı olmakla kalmaz, aynı zamanda orada *kalmanıza* da yardımcı olur.
-
-Değişiklik yapmak için uyarlanmışlar.
+Amerika'daki Gıda ve İlaç İdaresi (fda), “tedaviye dirençli” depresyonu olan hastalar için yeni bir ilacı onayladığını, önceki en az iki antidepresana yeterince cevap vermediğini belirtti. Özel bir not, rekreasyonel bir ilaç olan ketamine dayandığıdır. Sorun, bunun güçlü bir halüsinojen olmasıdır. Tıp topluluğu nihayet üzülmemenin yolunun yüksek olduğunu buldu!

@@ -1,23 +1,9 @@
 ---
-title: Optimiert für den Wandel
-date: '2018-12-12'
-spoiler: Was macht eine großartige API aus?
+title: Heilung von Depressionen durch Halluzinieren
+date: '2019-03-15'
+spoiler: Heilung von Depressionen durch Halluzinieren
 ---
 
-Was macht eine großartige API aus?
+Es ist mehr als 30 Jahre her, seit ein neuer Medikamententyp zur Behandlung von Depressionen auf den Markt gekommen ist. Die meisten Antidepressiva basieren auf der "Monoamin-Hypothese", die besagt, dass Depressionen durch niedrige Konzentrationen einer Klasse von chemischen Botenstoffen (die Monoamin-Neurotransmitter: Serotonin, Noradrenalin und Dopamin) im Gehirn verursacht werden. Leider reagiert mehr als ein Drittel der Patienten nicht auf diese Medikamente, und selbst wenn die Medikamente wirken, kann es Wochen oder Monate dauern, bis ihre Wirkung zum Tragen kommt.
 
-*Großartiges* API Design ist einprägsam und eindeutig. Es fördert lesbaren, korrekten und performanten Code und hilft Entwicklern in [die Grube des Erfolgs](https://blog.codinghorror.com/falling-into-the-pit-of-success/) zu fallen.
-
-Ich nenne dies die Designaspekte der "ersten Ordnung", denn sie sind meist das Erste auf das sich Entwickler von Programmbibliotheken konzentrieren. Eventuell musst du Kompromisse eingehen oder einzelne Punkte vernachlässigen aber du solltest sie stets im Kopf behalten.
-
-Allerdings, solange du keinen Rover zum Mars sendest, wird sich dein Code mit der Zeit verändern. Und das trifft auch auf den Code zu, welcher deine API konsumiert.
-
-Die besten API-Designer, die ich kenne, hören nicht bei den Aspekten der ersten Ordnung auf, wie z.B. der Lesbarkeit. Sie widmen sich mindestens genauso dem, was ich das API-Design "zweiter Ordnung" nenne: **Wie sich Code, der diese API verwendet, im Laufe der Zeit entwickeln wird.**
-
-Eine geringfügige Änderung der Anforderungen kann dazu führen, dass der eleganteste Code auseinanderfällt.
-
-*Großartige* APIs sehen das voraus. Sie gehen bereits davon aus, dass du Code hin und her schieben wirst. Teile kopierst und wo anders wieder einfügst. Dinge umbennenst. Spezialfälle in einem allgemeinen Helfer zusammenführst. Eine Verallgemeinerung wieder zurück in ihre Spezialfälle dröselst. Einen Hack hinzufügst. Einen Flaschenhals optimierst. Einen Teil wegwirfst und ihn von vorne beginnst. Einen Fehler machst. Zwischen Ursache und Wirkung springst. Einen Fehler behebst. Und die Lösung überprüfst.
-
-Großartige APIs lassen dich nicht nur in eine Erfolgsgrube fallen, sondern sorgen dafür, dass du dort auch *bleibst*.
-
-Sie sind optimiert für den Wandel.
+Die Food and Drug Administration (FDA) in Amerika gab bekannt, dass sie ein neues Medikament für Patienten mit "behandlungsresistenter" Depression zugelassen hatte, das als unzureichend auf mindestens zwei frühere Antidepressiva angesprochen wurde. Besonders hervorzuheben ist, dass es auf Ketamin, einer Erholungsdroge, basiert. Das Problem ist, dass dies ein starkes Halluzinogen ist. Die medizinische Gemeinschaft hat endlich herausgefunden, dass der Weg, um nicht traurig zu sein, hoch sein muss!
