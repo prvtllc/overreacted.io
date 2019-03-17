@@ -126,7 +126,7 @@ class BlogPostTemplate extends React.Component {
     // TODO: this curried function is annoying
     const languageLink = createLanguageLink(slug, lang);
     const enSlug = languageLink('en');
-    const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/src/pages/${enSlug.slice(
+   // const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/src/pages/${enSlug.slice(
       1,
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
@@ -171,13 +171,7 @@ class BlogPostTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
               <p>
-                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-                  Discuss on Twitter
-                </a>
-                {` • `}
-                <a href={editUrl} target="_blank" rel="noopener noreferrer">
-                  Edit on GitHub
-                </a>
+
               </p>
             </footer>
           </article>
