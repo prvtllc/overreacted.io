@@ -131,7 +131,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
+      `https://www.d3fcon.com${enSlug}`
     )}`;
 
     return (
@@ -205,7 +205,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              Overreacted
+              D3fcon
             </Link>
           </h3>
           <Bio />
