@@ -1,7 +1,7 @@
 ---
 title: Another Breach of Note - UConn Health
 date: '2019-03-14'
-spoiler: UConn self-reported that an unauthorized third party got access to some employee email accounts. The information obtained included Social Security numbers, birthdays, billing details and medical appointments. 
+spoiler: UConn self-reported that an unauthorized third party got access to some employee email accounts. The information obtained included Social Security numbers, birthdays, billing details and medical appointments. The breach affected as many as 326,000 individuals, and 1,500 of them may have involved Social Security numbers. It was also revealed that the source of the breach was a phishing attack but the perpetrator is still unidentified.
 ---
 ![UConn](./uconn-health.jpg)
 

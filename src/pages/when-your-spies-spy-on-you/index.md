@@ -1,7 +1,7 @@
 ---
 title: When Your Spies Spy On You
 date: '2019-03-12'
-spoiler: There’s a twist at the end.
+spoiler: Defendant is a former CIA and Defense Intelligence Agency (DIA) operative and contractor. Between 1981 and 2012, defendant worked for various U.S. Government agencies and cleared defense contractors. He also served some time on active duty in the U.S. Army. After leaving his last position as a contractor, defendant, at the times relevant here, was self-employed, operating his own largely unsuccessful consulting business.
 ---
 
 Recently, an [American spy was convicted of spying on the USA for China.](https://www.cyberforensics.tech/the-spy-case-of-kevin-patrick-mallory/) 

@@ -1,7 +1,7 @@
 ---
 title: Recent Breach of Note - UW Medicine
 date: '2019-03-04'
-spoiler: Recently, the news website hackers.tech reported that UW patient data was exposed online.
+spoiler: Recently, the news website hackers.tech reported that UW patient data was exposed online. In this case, the information related to 974,000 patients was posted to Google nonetheless.  The information that leaked included The files contained Name, Medical record number, With whom UW Medicine shared your information. A description of what information about you was shared (For example, “demographics”, “office visits” or “labs”).
 ---
 ![UW Medicine Breach](./uwbreach.jpg)
 

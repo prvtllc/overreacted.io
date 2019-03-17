@@ -1,7 +1,7 @@
 ---
 title: Curing Depression By Making You Hallucinate
 date: '2019-03-15'
-spoiler: The medical community has finally figured out that the way to not be sad is to be high! 
+spoiler: The medical community has finally figured out that the way to not be sad is to be high! The Food and Drug Administration (fda) in America that it had approved a new drug for patients with “treatment-resistant” depression, defined as having not responded adequately to at least two previous antidepressants. Of particular note is that it is based on ketamine, a recreational drug.  Problem is that this is a powerful hallucinogen. 
 ---
 
 ![Ketamine](./ketamine.png)
