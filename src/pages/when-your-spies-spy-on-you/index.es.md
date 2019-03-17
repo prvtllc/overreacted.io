@@ -1,192 +1,23 @@
 ---
-title: ¿Por qué escribimos super(props)?
-date: '2018-11-30'
-spoiler: Hay un giro inesperado al final.
+title: ¡Entrénalos a espiar y luego actúa de manera sorprendida cuando toman dinero para espiar a TÍ!
+date: '2019-03-12'
+spoiler: ¡Entrénalos a espiar y luego actúa de manera sorprendida cuando toman dinero para espiar a TÍ!
 ---
 
-He escuchado que los [Hooks](https://reactjs.org/docs/hooks-intro.html) son la nueva sensación. Irónicamente, quiero empezar este blog describiendo hechos interesantes sobre componentes de *clase*. ¡¿Qué les parece?!
+El acusado es un ex agente y contratista de la CIA y la Agencia de inteligencia de defensa (DIA). Entre 1981 y 2012, el acusado trabajó para varias agencias del Gobierno de los Estados Unidos y contratistas de defensa autorizados. También estuvo un tiempo en servicio activo en el Ejército de los Estados Unidos. Después de dejar su último puesto como contratista, el demandado, en los momentos relevantes aquí, trabajaba por cuenta propia, y operaba su propio negocio de consultoría, en gran parte sin éxito.
 
-**Estos trucos *no* son importantes para usar React de manera productiva; pero puedes hallarlos entretenidos si quieres profundizar en cómo funcionan las cosas.**
+La mayoría de las pruebas del juicio se centraron en los contactos y la relación del acusado con Michael Yang, un ciudadano de la República Popular China que el acusado creía que era un oficial de inteligencia del servicio de inteligencia de la República Popular China (PRCIS). En febrero de 2017, un reclutador de negocios chino llamado Richard Yang se contactó con el demandado a través de LinkedIn, un sitio web de redes sociales utilizado para la creación de redes de trabajo. Richard Yang le dijo al acusado que tenía información sobre posibles trabajos de consultoría en la República Popular China. Después de que el acusado expresó su interés en este posible trabajo de consultoría, Richard Yang organizó que el demandado se pusiera en contacto con un individuo llamado Michael Yang. El acusado, quien se encontraba en los Estados Unidos, luego participó en una llamada de Skype con Michael Yang, que estaba ubicado en la República Popular China. El propósito de la llamada era determinar la naturaleza de la información que Michael Yang estaba buscando. En esta llamada de Skype, Michael Yang aparentemente describió al acusado la naturaleza de la información que él, Michael Yang, estaba buscando. El acusado tomó notas sobre los temas en los que Michael Yang había expresado interés. Las notas que el acusado hizo de la llamada reflejan que Michael Yang estaba interesado en lo siguiente: el sistema de defensa antimisiles THAAD2 de Estados Unidos, el Mar de China Meridional, la manipulación de la moneda de la República Popular China y las asociaciones público-privadas, un tema que un experto gubernamental en el juicio testificado podría incluir información clasificada / información de defensa nacional (NDI).
 
-Aquí está el primero.
+Después de su llamada inicial de Skype con Michael Yang, el acusado, a fines de febrero, se comunicó con Ralph Stephenson (Stephenson), una persona que el acusado conocía de la iglesia del acusado y que el acusado también sabía que trabajaba en la CIA. El acusado le pidió a Stephenson que lo ayudara a comunicarse con alguien de la CIA que trabaja en temas relacionados con China. Stephenson declaró en el juicio que el contacto del acusado lo hizo sentir incómodo y, en consecuencia, Stephenson comunicó los contactos del acusado con Stephenson a los agentes de seguridad de la CIA.
 
----
+A principios de marzo de 2017, el acusado y Michael Yang organizaron que el demandado viajara al PRC para reunirse con Michael Yang y el Sr. Ding, supuestamente el jefe de Michael Yang. Antes del viaje, el demandado le pidió a Michael Yang que le proporcionara un iPhone de Apple para que el demandado lo usara para comunicarse con Michael Yang mientras el demandado estaba en la República Popular China. El acusado le pidió a Michael Yang que tenga instalada en el iPhone WeChat, una aplicación de comunicación popular en el PRC. El demandado solicitó a Michael Yang que le dejara el iPhone en un sobre cerrado en el hotel del demandado para que, según las palabras del demandado, el demandado pudiera estar seguro de que el iPhone "no había sido manipulado".
 
-He escrito `super(props)` más veces en mi vida de las que quisiera saber:
+El día siguiente al intercambio de correo electrónico del demandado con Michael Yang sobre la solicitud del iPhone de un demandado, el demandado fue a una tienda de FedEx en Washington DC, donde el acusado tenía nueve páginas de documentos escaneados en una tarjeta SD. Estos documentos no fueron clasificados y estaban relacionados con los estándares de análisis de la CIA, las siglas de inteligencia militar y otros temas. El 13 de marzo de 2017, luego de que el acusado llegó a Shanghai, China, el acusado envió un correo electrónico a Michael Yang adjuntando las nueve páginas de documentos escaneados de la tarjeta SD. Como lo dijo el acusado, estas nueve páginas adjuntas se adjuntaron como "ejemplos".
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Durante esta visita del acusado al PRC, el acusado se reunió durante varias horas con Michael Yang y el Sr. Ding. En sus últimas entrevistas con agentes de la CIA y del FBI, el acusado reconoció que en el curso de esta visita al defensor de la República Popular China comprendió que Michael Yang y el Sr. Ding eran, de hecho, funcionarios de inteligencia de la República Popular China que buscaban secretos del Gobierno de los Estados Unidos.
 
-Por supuesto, la [propuesta de atributos de clase](https://github.com/tc39/proposal-class-fields) nos permite obviar la ceremonia:
+En abril de 2017, el demandado viajó nuevamente a la República Popular China. En este viaje, Michael Yang le entregó al demandado un teléfono inteligente Samsung Galaxy Note 4, que el acusado describió como un dispositivo de comunicaciones encubiertas (covcom). Este dispositivo covcom incluía una aplicación personalizada que permitía al demandado enviar comunicaciones cifradas a Michael Yang a través de WeChat, un programa que se cargó en el dispositivo covcom. Mientras el acusado estaba en la República Popular China, Michael Yang entrenó al acusado sobre cómo usar el dispositivo covcom para comunicarse de manera segura con Michael Yang a través de mensajes cifrados.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+El acusado regresó a los Estados Unidos y aterrizó primero en Chicago. Cuando se le preguntó sobre el dispositivo covcom, el acusado falsamente le dijo a los oficiales de CBP que el dispositivo covcom era un regalo para su esposa. Los oficiales de CBP permitieron que el acusado retuviera los $ 16,500 y el dispositivo covcom, y luego regresara a su casa en Leesburg, Virginia.
 
-Una sintaxis como esta se [planeó](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) cuando React 0.13 añadió soporte para clases simples en 2015. Definir el `constructor` e invocar `super(props)` siempre se pensó como una solución temporal hasta que los atributos de clases proveyeran una alternativa ergonómica.
-
-Pero volvamos a este ejemplo usando solo características de ES2015:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**¿Por qué invocamos `super`? ¿Podemos *no* invocarlo? Si lo tenemos que invocar, ¿qué pasa si no pasamos `props`? ¿Habrá otros argumentos?** Averigüémoslo.
-
----
-
-En JavaScript, `super` hace referencia al constructor de la clase base (en nuestro ejemplo, apunta a la implementación de `React.Component`).
-
-Algo importante, no puedes usar `this` en un constructor hasta *después* que se haya llamado al constructor base. Javascript no te lo permitirá:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Aún no se puede usar `this`
-    super(props);
-    // ✅ Sin embargo ahora no hay problemas
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Hay una buena razón por la que Javascript obliga a que el constructor base se ejecute antes de que toques `this`. Considera una jerarquía de clases:
-
-```jsx
-class Persona {
-  constructor(nombre) {
-    this.nombre = nombre;
-  }
-}
-
-class PersonaEducada extends Persona {
-  constructor(nombre) {
-    this.saludarColegas(); // 🔴 Esto no está permitido, lee debajo por qué
-    super(nombre);
-  }
-  saludarColegas() {
-    alert('¡Buenos días amigos!');
-  }
-}
-```
-
-Imagina que se *permitiera* usar `this` antes de invocar `super`. Un mes después, podríamos querer cambiar `saludarColegas` para incluir el nombre de la persona en el mensaje:
-
-```jsx
-  saludarColegas() {
-    alert('¡Buenos días amigos!');
-    alert('Mi nombre es ' + this.nombre + '. ¡Encantado de conocerlos!');
-  }
-```
-
-Pero olvidamos que `this.saludarColegas()` se invoca antes de que la llamada a `super()` tuviese oportunidad de inicializar `this.nombre`. ¡Así que `this.nombre` no está aún ni siquiera definido! Como puedes ver, puede ser difícil analizar un código como este.
-
-Para evitar tales trampas **JavaScript obliga que si quieres usar `this` en un constructor, *tienes que* invocar `super` primero.** ¡Deja que la base haga su trabajo! Y esta limitación también se aplica a los componentes de React definidos como clases:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Está bien usar `this` ahora
-    this.state = { isOn: true };
-  }
-```
-
-Esto nos deja con otra pregunta: ¿por qué pasar `props`?
-
----
-
-Podrías pensar que pasar `props` hacia `super` es necesario de manera que el constructor base de `React.Component` pueda inicializar `this.props`:
-
-```jsx
-// Dentro de React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Y ello no está lejos de la verdad — de hecho, eso es [lo que hace](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-Pero de alguna manera, si invocas `super()` sin el argumento `props`, aún serás capaz de acceder a `this.props` en `render` y otros métodos. (Si no me crees, ¡inténtalo tú mismo!)
-
-¿Como funciona *eso* ? Resulta que **React también asigna `props` a la instancia justo después de invocar a *tu* constructor:**
-
-```jsx
-  // Dentro de React
-  const instancia = new TuComponente(props);
-  instancia.props = props;
-```
-
-Así que aún si olvidas pasarle `props` a `super()`, React aún lo pondría justo después. Hay una razón para ello.
-
-Cuando React añadió soporte para clases, no añadió soporte solo para clases ES6. El objetivo era soportar el mayor rango de abstracciones de clase como fuera posible. [No estaba claro](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) cuán relativamente exitosos serían ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript, u otras soluciones para definir componentes. Así que React intencionalmente no requería llamar a `super()` — aún cuando las clases ES6 sí lo hacen.
-
-¿Esto quiere decir que puedes escribir simplemente `super()` en lugar de `super(props)`?
-
-**Probablemente no, porque sigue siendo confuso.** Seguro, React asignaría `this.props` *después* que tu constructor se ha ejecutado. Pero `this.props` aún no estaría definido *entre* la invocación a `super` y el fin de tu constructor:
-
-```jsx{14}
-// Dentro de React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Dentro de tu código
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 Olvidamos pasar props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined 
-  }
-  // ...
-}
-```
-
-Puede ser aún más difícil de depurar si esto ocurre en algún método invocado *desde* el constructor. **Y por eso es que recomiendo siempre pasar `super(props)`, aun cuando no es estrictamente necesario:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ Pasamos props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Esto asegura que `this.props` esté definido aún antes de que el constructor termine.
-
------
-
-Hay una última parte sobre la que los usuarios veteranos de React podrían tener curiosidad.
-
-Puede que hayas notado cuando usas la API Context en clases (ya sea con la antigua API `contextTypes` o la moderna `contextType` añadida en React 16.6), `context` se pasa como segundo argumento al constructor.
-
-¿Entonces por qué en su lugar no escribimos `super(props, context)`? Podríamos, pero context se usa con menos frecuencia, por lo que esta trampa no aparece tan a menudo.
-
-**Con la propuesta de atributos de clase esta trampa mayormente desaparece de todas formas.** Sin un constructor explícito, todos los argumentos se pasan automáticamente. Esto es lo que permite que una expresión como `state = {}`, si lo necesita, incluya referencias a `this.props` o `this.context`.
-
-Con los Hooks, ni siquiera tenemos `super` o `this`. Pero ese es tema para otro día.
+El 25 de abril de 2017, el demandado visitó una tienda de FedEx en un lugar cerca de su casa en Leesburg, Virginia. Imágenes de vigilancia

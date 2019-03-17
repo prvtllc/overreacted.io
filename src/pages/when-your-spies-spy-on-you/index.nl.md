@@ -1,192 +1,23 @@
 ---
-title: Waarom gebruiken we super(props)?
-date: '2018-11-30'
-spoiler: Het einde heeft een wending.
+title: Train ze om te spioneren en verbaas je als ze geld nemen om JOU te bespioneren!
+date: '2019-03-12'
+spoiler: Train ze om te spioneren en verbaas je als ze geld nemen om JOU te bespioneren!.
 ---
 
-[Hooks](https://reactjs.org/docs/hooks-intro.html) zijn blijkbaar helemaal in. Ironisch genoeg wil ik dit blog beginnen met een aantal leuke feiten over *class* components. Wat dacht je daarvan!
+Verweerder is een voormalige medewerker van de CIA en Defence Intelligence Agency (DIA) en aannemer. Tussen 1981 en 2012 werkte verweerder voor verschillende overheidsinstanties in de VS en erkende defensie-aannemers. Hij diende ook enige tijd in actieve dienst in het Amerikaanse leger. Na zijn laatste functie als aannemer te hebben verlaten, was de gedaagde op de hier relevante tijden zelfstandige en exploiteerde hij zijn grotendeels grotendeels niet-geslaagde consultingactiviteiten.
 
-**Het is totaal *niet* nodig om deze feitjes te weten om effectief met React te kunnen werken. Maar het kan wel interessant zijn als je wil weten hoe alles samenhangt.**
+Het merendeel van de proefgegevens was gericht op de contacten van verweerder en de relatie met Michael Yang, een burger van de VRC waarvan de verdachte geloofde dat het een inlichtingenofficier was voor de PRC-inlichtingendienst (PRCIS). In februari 2017 nam een ​​Chinese recruiter, Richard Yang, contact op met gedaagde via LinkedIn, een sociale media-website die wordt gebruikt voor het netwerken van werk. Richard Yang vertelde verdachte dat hij aanwijzingen had over mogelijk advieswerk in de VRC. Nadat beklaagde belangstelling had getoond voor dit mogelijke advieswerk, regelde Richard Yang dat gedaagde contact zou opnemen met een persoon met de naam Michael Yang. Verdachte, die in de Verenigde Staten was, nam vervolgens deel aan een Skype-gesprek met Michael Yang, die in de VRC was gevestigd. Het doel van de oproep was om de aard van de informatie te bepalen die Michael Yang zocht. In deze Skype-oproep beschreef Michael Yang de gedaagde kennelijk de aard van de informatie waarnaar hij, Michael Yang, op zoek was. Beklaagde nam aantekeningen over de onderwerpen waarin Michael Yang belangstelling had getoond. De aantekeningen die verdachte maakte van de oproep weerspiegelen dat Michael Yang geïnteresseerd was in het volgende: het THAAD 2-krakersysteem van de Verenigde Staten, de Zuid-Chinese Zee, valutamanipulatie door de VRC en publiek-private partnerschappen, een onderwerp dat een regeringsdeskundige tijdens het proces is Getuige hiervan kan gerubriceerde informatie / nationale defensie-informatie (NDI) zijn.
 
-Ten eerste.
+Na zijn eerste Skype-gesprek met Michael Yang, beklaagde de gedaagde eind februari contact met Ralph Stephenson (Stephenson), een gedaagde persoon kende de kerk van de gedaagde en wie de gedaagde ook kende, werkte bij de CIA. Verdachte vroeg Stephenson om hem te helpen contact op te nemen met iemand van de CIA die aan Chinese kwesties werkte. Stephenson getuigde bij het proces dat het contact van de gedaagde hem ongemakkelijk maakte en dienovereenkomstig rapporteerde Stephenson de contacten van de gedaagde met Stephenson aan de veiligheidsagenten van de CIA.
 
----
+Begin maart 2017 hebben gedaagde en Michael Yang geregeld dat verdachte naar de VRC zou afreizen om Michael Yang en Ding te ontmoeten, vermoedelijk de baas van Michael Yang. Voorafgaand aan de reis vroeg gedaagde Michael Yang om gedaagde een Apple iPhone voor beklaagde te geven om met Michael Yang te communiceren terwijl gedaagde in de VRC was. Verdachte heeft Michael Yang gevraagd om WeChat, een communicatietoepassing die populair is in de VRC, op de iPhone te installeren. Verdachte verzocht om Michael Yang de iPhone achtergelaten in een verzegelde envelop in het hotel van de gedaagde te laten, zodat de verdachte er in de woorden van de verdachte zeker van kon zijn dat er met de iPhone "niet was geknoeid".
 
-Ik heb `super(props)` vaker geschreven dan ik zou willen toegeven:
+De dag na de e-mailuitwisseling van gedaagde met Michael Yang over het verzoek van gedaagde om een ​​iPhone, ging de beklaagde naar een FedEx-winkel in Washington D.C. waar verdachte negen pagina's documenten scande op een SD-kaart. Deze documenten waren niet geclassificeerd en gerelateerd aan CIA-analysestandaarden, acroniemen van militaire inlichtingen en andere onderwerpen. Op 13 maart 2017, nadat verdachte arriveerde in Shanghai, China, stuurde beklaagde een e-mail naar Michael Yang die de negen pagina's met gescande documenten van de SD-kaart bevestigde. Zoals beklaagde het uitdrukte, werden deze bijgevoegde negen pagina's als 'voorbeelden' bijgevoegd.
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Tijdens dit bezoek van verdachte aan de VRC, ontmoette gedaagde gedurende enkele uren met Michael Yang en Ding. Verweerder erkende in zijn latere interviews met CIA en FBI agenten dat tijdens dit bezoek aan de PRC verdachte begreep dat Michael Yang en Ding in feite functionarissen van de PRC waren die geheimen van de Amerikaanse regering zochten.
 
-Natuurlijk maakt [the class fields proposal](https://github.com/tc39/proposal-class-fields) het heel makkelijk om dit hele gedoe over te slaan:
+In april 2017 reisde de verdachte opnieuw naar de VRC. Op deze reis gaf Michael Yang gedaagde een Samsung Galaxy Note 4-smartphone, die door verdachte werd omschreven als een verborgen communicatie (covcom) -apparaat. Dit covcom-apparaat bevatte een aangepaste applicatie waarmee gedaagde versleutelde communicatie naar Michael Yang kon sturen via WeChat, een programma dat op het covcom-apparaat was geladen. Terwijl verdachte in de VRC zat, trainde Michael Yang beklaagde over hoe het covcom-apparaat te gebruiken om veilig te communiceren met Michael Yang via gecodeerde berichten.
 
+Verdachte keerde vervolgens terug naar de Verenigde Staten en landde als eerste in Chicago. Gevraagd naar het covcom-apparaat, vertelde de verdachte de CBP-functionarissen ten onrechte dat het covcom-apparaat een geschenk voor zijn vrouw was. De CBP-functionarissen stonden de gedaagde toe om zowel het $ 16.500 als het covcom-apparaat te behouden en vervolgens terug te keren naar zijn huis in Leesburg, Virginia.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
-Deze syntax stond al in de [planning](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) toen er in React 0.13 in 2015 ondersteuning kwam voor plain classes. Het definiëren van de `constructor` en aanroepen van `super(props)` was altijd bedoeld als een tijdelijke oplossing totdat class fields een goed alternatief kon bieden.
-
-Laten we het voorbeeld nog eens bekijken, maar dan met gebruik van ES2015 functionaliteiten:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Waarom is het nodig om `super` aan te roepen? Is het ook mogelijk dit niet te doen? En als dit dan toch nodig is, wat gebeurt er dan als we geen `props` meegeven? Zijn er nog andere argumenten?** Laten we kijken.
-
----
-
-`super` refereert in JavaScript naar de parent class `constructor`. (In ons voorbeeld verwijst het naar de implementatie van `React.Component`.)
-
-Belangrijk om te weten is dat je `this` pas kan gebruiken in een `constructor` *nadat* je de parent `constructor` hebt aangeroepen. JavaScript laat het niet toe om:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Kan 'this' nog niet gebruiken.
-    super(props);
-    // ✅ Nu kan het wel.
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Er is een goede reden dat JavaScript aandringt op het uitvoeren van de parent `constructor` voordat je iets met `this` doet. Stel je een class hierarchie voor:
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴 Dit mag niet, lees hieronder waarom.
-    super(name);
-  }
-  greetColleagues() {
-    alert('Good morning folks!');
-  }
-}
-```
-
-Stel je voor dat je `this` gebruikt *voordat* `super` kan worden aangeroepen. Een maand later willen we misschien `greetColleagues` aanpassen zodat deze ook de naam van de persoon heeft in het bericht:
-
-```jsx
-  greetColleagues() {
-    alert('Good morning folks!');
-    alert('My name is ' + this.name + ', nice to meet you!');
-  }
-```
-
-Maar we zijn vergeten dat `this.greetColleagues()` aangeroepen is voordat `super()` de kans heeft gekregen om `this.name` op te zetten. `this.name` is dus nog niet eens gedefinieerd! Zoals je kan zien kan dit soort code moeilijk zijn om rekening mee te houden.
-
-Om dit soort valkuilen te voorkomen **forceert JavaScript ons eerst `super` aan te roepen voordat je `this` kan gebruiken.** Laat de parent zijn ding doen! Deze beperking is ook van toepassing op React components die als class worden gedefinieerd:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Het is OK om `this` nu te gebruiken.
-    this.state = { isOn: true };
-  }
-```
-
-Dit brengt ons bij de volgende vraag: waarom zou je `props` meegeven?
-
----
-
-Je zou denken dat het meegeven van `props` aan `super` noodzakelijk is, omdat het de constructor van `React.Component` in staat stelt `this.props` te initialiseren:
-
-```jsx
-// In React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Dit ligt niet ver van de waarheid - dat is ook precies [wat het doet](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-Maar als je `super()` aanroept zonder het `props` argument, is het op een of andere manier toch nog mogelijk om `this.props` te benaderen in de `render` method en andere methods. (Geloof je me niet? Probeer het dan vooral zelf uit).
-
-Hoe *dat* werkt? Het blijkt dat **React props ook toewijst op de instance net nadat *jouw* constructor is aangeroepen:**
-
-```jsx
-  // In React
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-Dus zelfs als je vergeet `props` mee te geven aan `super()` zal React ze direct na afloop klaarzetten. En daar is een reden voor.
-
-Toen er in React ondersteuning kwam voor classes, kwam er niet alleen ondersteuning voor ES6 classes. Het doel was om een zo breed mogelijk scala aan class abstracties te ondersteunen. Het was [niet geheel duidelijk](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) hoe succesvol ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript of andere oplossingen zouden zijn voor het definiëren van componenten. Daarom bleef React neutraal wat betreft of het aanroepen van `super()` nodig zou zijn - zelfs als dat bij ES6 classes wel nodig is.
-
-Betekent dit dat je gewoon `super()` kan gebruiken in plaats van `super(props)`?
-
-**Waarschijnlijk niet, sinds het nog steeds verwarrend is.** Uiteraard, React zal `this.props` toewijzen nadat de `constructor` zijn werk heeft gedaan. Maar `this.props` zou nog steeds niet gedefinieerd zijn *tussen* de `super` call en het einde van je `constructor`:
-
-```jsx{14}
-// In React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// In de code
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 We vergaten props mee te geven
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined
-  }
-  // ...
-}
-```
-
-Het kan nog uitdagender zijn om te debuggen als dit in een method gebeurt die wordt aangeroepen *vanuit* de `constructor`. **En dat is waarom ik aanraad om altijd `super(props)` door te geven, zelfs als het niet per se verplicht is:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ We gaven props mee
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Dit waarborgt dat `this.props` is gedefinieerd nog voordat de `constructor` klaar is.
-
------
-
-Er is nog één ding waar mensen die React al langer gebruiken misschien nieuwsgierig naar zijn.
-
-Het is je misschien opgevallen dat als je de Context API in classes (met legacy `contextTypes` of de modernere `contextType` API die werd toegevoegd in React 16.6), gebruikt, `context` als tweede argument wordt meegegeven aan de `constructor`.
-
-Dus waarom schrijven we dan niet `super(props, context)`?  Dit zou kunnen, maar context wordt veel minder vaak gebruikt, dus deze valkuil zal minder vaak voorkomen.
-
-**Met de class fields proposal verdwijnt deze valkuil sowieso al zo goed als volledig.** Zonder een expliciete `constructor` worden alle argumenten automatisch al doorgegeven. Dit maakt het mogelijk dat een expressie zoals `state = {}` referenties bevat naar `this.props` of `this.context` als het nodig is.
-
-Met Hooks hebben we niet eens `super` of `this`. Maar dat is een onderwerp voor een andere dag.
+Op 25 april 2017 bezocht verdachte een FedEx-winkel op een locatie in de buurt van zijn huis in Leesburg, Virginia. Beelden van surveillance

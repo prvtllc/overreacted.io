@@ -1,194 +1,24 @@
 ---
-title: Hvorfor Skriver Vi super(props)?
-date: '2018-11-30'
-spoiler: Den som venter på noe godt, venter ikke forgjeves.
+title: Trene dem til å spionere da opptrer overrasket når de tar penger for å spionere på deg!
+date: '2019-03-12'
+spoiler: Trene dem til å spionere da opptrer overrasket når de tar penger for å spionere på deg!
 ---
 
 
-Jeg hørte at [Hooks](https://reactjs.org/docs/hooks-intro.html) er på moten. Ironisk nok vil jeg heller starte denne bloggen med å snakke om morsomme fakta om *klasse* komponenter. Tenke seg til!
+Saksøkte er en tidligere CIA og Defense Intelligence Agency (DIA) operative og entreprenør. Mellom 1981 og 2012 jobbet saksøkte for ulike amerikanske regjeringsorganer og rydde forsvarsentreprenører. Han tjente også litt tid på aktiv tjeneste i den amerikanske hæren. Etter å ha forlatt sin siste stilling som entreprenør, saksøkt, på de relevante tidspunktene her, var selvstendig næringsdrivende, som driver sin egen til stor del mislykkede konsulentvirksomhet.
 
-**Disse [gotcha'ene](https://en.wikipedia.org/wiki/Gotcha_(programming)) er *ikke* viktige for å kunne bruke React produktivt, men de kan appellere til deg dersom du liker å komme til bunns i hvordan ting funker.**
+Flertallet av forsøksbeviset fokuserte på saksøkte kontakter og forhold til Michael Yang, en borger i Kina, som saksøkte trodde var en etterretningsoffiser for PRCIS-etterretningstjenesten (PRCIS). I februar 2017 kontaktet en kinesisk bedriftsrekrutter som heter Richard Yang kontaktet tiltalte via LinkedIn, en nettside for sosiale medier som brukes til jobbnettverk. Richard Yang fortalte at han hadde ledere om mulig rådgivningsarbeid i Kina. Etter at saksøkte uttrykte interesse for dette mulige rådgivningsarbeidet, arrangerte Richard Yang at saksøkte skulle kontakte et individ som heter Michael Yang. Saksøkte, som var i USA, så engasjert i et Skype-anrop med Michael Yang, som var lokalisert i Kina. Formålet med samtalen var å bestemme arten av den informasjonen Michael Yang var ute etter. I denne Skype-anropet beskrev Michael Yang åpenbart for å beskytte naturen til den informasjonen han, Michael Yang, forsøkte. Saksøkte tok notater om emner der Michael Yang hadde uttrykt interesse. Anmerkningene tiltalte av samtalen gjenspeiler at Michael Yang var interessert i følgende: USAs THAAD2missile-forsvarssystem, Sør-Kinahavet, valutapåvirkning av Kina, og offentlig-private partnerskap, et emne som en regjeringsekspert ved rettssaken vitnet kan innebære klassifisert informasjon / nasjonal forsvarsinformasjon (NDI).
 
-Her er den første.
+Etter den første Skype-samtalen med Michael Yang, anklaget, i slutten av februar, kontaktet Ralph Stephenson (Stephenson), en saksøkt kjente fra saksøktens kirke, og som saksøkt også visste arbeidet ved CIA. Saksøkte spurte Stephenson for å hjelpe ham med å kontakte noen på CIA som arbeider med Kina-problemer. Stephenson vitnet i rettssaken at saksøktens kontakt gjorde ham ubehagelig, og derfor rapporterte Stephenson saksøkte sine kontakter med Stephenson til CIA-sikkerhetsagenter.
 
----
+I begynnelsen av mars 2017 arrangerte saksøkt og Michael Yang at saksøkte skulle reise til Kina for å møte Michael Yang og Mr. Ding, formativt Michael Yangs sjef. I forkant av turen spurte saksøkte Michael Yang om å gi tiltalte med en Apple iPhone for saksøkte å bruke til å kommunisere med Michael Yang mens saksøkt var i Kina. Saksøkte spurte Michael Yang om å ha WeChat, en kommunikasjonsapplikasjon populær i Kina, installert på iPhone. Saksøkte anmodet om at Michael Yang har iPhone igjen i en forseglet konvolutt i saksøktes hotell slik at i saksøkte ords saksøkte kunne være sikker på at iPhone "ikke hadde blitt manipulert."
 
-Jeg har skrevet `super(props)` flere ganger i mitt liv enn jeg vil vite:
+Dagen etter saksøkte e-post utveksling med Michael Yang angående saksøkte forespørsel om en iPhone, saksøkte gikk til en FedEx butikk i Washington D.C. der saksøkte hadde ni sider med dokumenter skannet på et SD-kort. Disse dokumentene var uklassifisert og relatert til CIA-analysestandarder, militære etterretnings akronymer og andre emner. Den 13. mars 2017, etter at saksøkte ankom i Shanghai, Kina, sendte saksøkte en e-post til Michael Yang ved å legge de ni sidene av skannede dokumenter fra SD-kortet. Som saksøkte sa det, ble disse vedlagte ni sidene knyttet som "eksempler".
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Under dette besøket av saksøkt til Kina, møtte saksøkte i flere timer med Michael Yang og Mr. Ding. Saksøkte i sine senere intervjuer med CIA og FBI-agenter erkjente at i løpet av dette besøket til PRC-saksøkte forsto at Michael Yang og Mr. Ding faktisk var PRC-etterretningsansvarlige som søkte amerikanske regjeringshemmeligheter.
 
-Selvfølgelig, [forslaget til class fields](https://github.com/tc39/proposal-class-fields) lar oss hoppe over seremonien:
+I april 2017 reiste saksøkte igjen til Kina. På denne turen leverte Michael Yang saksøkte med en Samsung Galaxy Note 4-smarttelefon, som saksøkt beskrev som en skjult kommunikasjon (covcom) -enhet. Denne covcom-enheten inkluderte en tilpasset applikasjon som tillot saksøkte å sende kryptert kommunikasjon til Michael Yang gjennom WeChat, et program som ble lastet på covcom-enheten. Mens saksøkt var i Kina, trente Michael Yang tiltalte om hvordan man bruker covcom-enheten til å kommunisere sikkert med Michael Yang via krypterte meldinger.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+Saksøkte returnerte deretter til USA, landte først i Chicago. Når det ble spurt om covcom-enheten, fortalte saksøke falskt at CBP-offiserer at covcom-enheten var en gave til sin kone. CBP-offiserene tillot saksøkte å beholde både $ 16 500 og covcom-enheten, og deretter komme tilbake til sitt hjem i Leesburg, Virginia.
 
-og denne syntaksen var [planlagt](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) da React 0.13 la til støtte for vanlige klasser i 2015. Det å definere en `constructor` også kalle `super(props)` var alltid ment til å være en midlertidig løsning, frem til klassefeltene (class fields) kunne bidra med et ergonomisk alternativ.
-
-Allikevel, la oss ta for oss dette eksemplet ved å bare bruke ES2015 egenskaper:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Hvorfor kaller vi på `super`? Kan vi velge å *ikke* kalle på den? Hvis vi kaller på den, hva skjer hvis vi ikke sender med `props`? 
-Finnes det andre parametre?** La oss finne ut av det.
-
----
-
-I JavaScript, refererer `super` til parent-klasse konstruktøren. (I vårt eksempel peker den på `React.Component` implementasjonen.)
-
-Her er det viktig å nevne at du ikke kan bruke `this` i en konstruktør *før* du har kalt på parent konstruktøren. JavaScript tillater det ikke:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Kan ikke bruke `this` enda
-    super(props);
-    // ✅ Herfra går det bra
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Og det er med god grunn at JavaScript krever at parent konstruktøren kjører før du rører `this`. Se for deg følgende klassehierarki:
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴 Dette er ikke lov, les hvorfor nedenfor
-    super(name);
-  }
-  greetColleagues() {
-    alert('God morgen folkens!');
-  }
-}
-```
-
-Forestill deg at det *var* tillat å bruke `this` før `super`-kallet. En måned senere, kan det hende vi endrer `greetColleagues` slik at den inkluderer personens navn:
-
-```jsx
-  greetColleagues() {
-    alert('God morgen folkens!');
-    alert('Mitt navn er' + this.name + ', hyggelig å møte dere!');
-  }
-```
-
-Men vi glemte at `this.greetColleagues()` blir kalt før `super()`-kallet hadde en sjanse til å sette opp `this.name`. Så `this.name` er ikke definert enda! Som du skjønner, kan kode som dette bli veldig vanskelig å holde styr på.
-
-For å unngå slike fallgruver, **krever JavaScript at hvis du vil bruke `this` i en konstruktør, *må du* kalle `super` først.** La parenten gjøre greia si! Denne begrensningen gjelder for React komponenter som er definert som klasser også:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Okay å bruke `this` nå
-    this.state = { isOn: true };
-  }
-```
-
-Dette fører oss videre til neste spørsmål: hvorfor sende `props`?
-
----
-
-Du tenker kanskje at å sende `props` til `super` er nødvendig for at den underliggende `React.Component` konstruktøren skal kunne initiere `this.props`:
-
-```jsx
-// Inne i React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Og det er ikke langt fra sannheten — det er nemlig [akkurat det den gjør](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-Men på en eller annen måte, selv om du kaller `super()` uten `props` parameteren, kan du fortsatt akksesere  `this.props` i `render` og andre metoder. (Hvis du ikke tror på meg kan du jo prøve det selv!)
-
-Hvordan funker *det*? Det viser seg at **React også tildeler `props` til instansen rett etter den kaller på *din* konstruktør:**
-
-```jsx
-  // Inne i React
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-Så selv om du glemmer å sende `props` til `super()`, vil React uansett initiere dem rett etterpå, og det er en grunn til dette.
-
-Da React la til støtte for klasser, la den ikke bare til støtte for ES6 klasser. Målet var å støtte så mange klasseabtrasksjoner som overhode mulig. Det var imidlertid [uklart](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) hvor velykket ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript, eller andre løsninger ville være for å definere komponenter. Dermed hadde React helt bevisst ingen formening om det skulle være et krav å kalle `super()` — selv om ES6 klasser krever det.
-
-Så betyr dette at man bare kan skrive `super()` istedenfor `super(props)`?
-
-**Egentlig ikke, da dette fortsatt er forvirrende.** Selv om React vil tildele `this.props` verdier *etter* at konstruktøren din kjører, vil `this.props` fortsatt være udefinert *mellom* `super` kallet og slutten på konstuktøren din:
-
-```jsx{14}
-// Inne i React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Inne i din kode
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 Vi glemte å sende med props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 udefinert
-  }
-  // ...
-}
-```
-
-Og det kan være enda mer utfordrende å debugge dette hvis det skjer i en metode som er kalt *fra* konstrukøtren. **Derfor anbefaler jeg på det sterkeste å alltid bruke `super(props)`, selv om det strengt tatt ikke er nødvendig:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ Vi sendte props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-På denne måten er vi helt sikre på at `this.props` er definert, også før man går ut av konstruktøren.
-
------
-
-Det er en siste ting som langvarige React-brukere kanskje er nysgjerrige på.
-
-Du har kanskje merket at når du bruker Context APIet i klasser (enten med den utdaterte `contextTypes`, eller det moderne `contextType` APIet som ble lagt til i React 16.6), blir også `context` sendt som en parameter til konstruktøren.
-
-Hvorfor skriver vi ikke da `super(props, context)` isteden? Vi kunne ha gjort det, men context brukes mye mindre en props, og dermed oppstår altså fallgruven heller ikke så ofte.
-
-**Dessuten forsvinner denne fallgruven mer eller mindre helt med forslaget til class fields som ble nevnt tidligere.** Ettersom vi ikke eksplitsitt lager en konstruktør, vil alle parameterene bli sendt automatisk. Det er også denne funksjonaliteten som tillater en kodesnutt som `state = {}` å fortsatt inkludere referanser til `this.props` eller `this.context` om nødvendig.
-
-Når det kommer til Hooks, har vi ikke `super` eller `this` engang, men det er et tema for en annen dag.
+25. april 2017 besøkte saksøkte en FedEx-butikk på et sted i nærheten av hans hjem i Leesburg, Virginia. Opptak fra overvåking

@@ -1,193 +1,24 @@
 ---
-title: Miért írjuk mindig, hogy super(props)?
-date: '2018-11-30'
-spoiler: A végén lesz egy csavar.
+title: Tanítsd meg őket, hogy kémkedjenek, majd meglepődj, amikor pénzt keresnek, hogy kémkedjenek Önt!
+date: '2019-03-12'
+spoiler: Tanítsd meg őket, hogy kémkedjenek, majd meglepődj, amikor pénzt keresnek, hogy kémkedjenek Önt!
 ---
 
 
-Tudom, hogy mostanában a [Hookok](https://reactjs.org/docs/hooks-intro.html) vannak középpontban, éppen ezért irónikus, hogy *class*  komponensekkel kapcsolatos tényekkel kezdem el ezt a blogot. És akkor mi van?!
+Az alperes egy korábbi CIA és védelmi hírszerző ügynökség (DIA) operatív és vállalkozó. 1981 és 2012 között az alperes különböző amerikai kormányzati szerveknél és tisztázott védelmi vállalkozóknál dolgozott. Az Egyesült Államok hadseregében is aktív időtöltést töltött. Miután elhagyták az utolsó pozícióját vállalkozóként, az alperes az ide vonatkozó időpontokban önálló vállalkozó volt, saját, nagyrészt sikertelen tanácsadói vállalkozását működtette.
 
-**Ezek a 'jaj, már értem!' pillanatok *nem* fontosak a React használatát illletően, de mindenképpen szórakoztatóak, ha szeretsz elmerülni a dolgok működésében.**
+A próba bizonyítékainak többsége az alperes kapcsolatokra és Michael Yanghoz fűződő kapcsolataira összpontosított, aki a KNK állampolgára, aki úgy vélte, hogy a KNK hírszerző szolgálatának (PRCIS) hírszerző tisztje. 2017 februárjában egy kínai vállalati toborzó, Richard Yang, kapcsolatba lépett az alperessel a LinkedIn-en keresztül, amely a munkahelyi hálózatépítéshez használt szociális média weboldal. Richard Yang azt mondta az alperesnek, hogy vezet a lehetséges tanácsadási munkákhoz a Kínában. Miután az alperes kifejezte érdeklődését a lehetséges tanácsadási munkával kapcsolatban, Richard Yang elrendelte, hogy az alperes kapcsolatba lépjen egy Michael Yang nevű személyvel. Alperes, aki az Egyesült Államokban volt, majd Skype-hívást folytatott Michael Yang-val, aki a Kínában volt. A hívás célja annak meghatározása volt, hogy milyen jellegű információkat tartalmaz Michael Yang. Ebben a Skype-hívásban Michael Yang nyilvánvalóan leírta az alperesnek az általuk Michael Michael által keresett információ jellegét. Az alperes megjegyzéseket tett azon témákról, amelyekben Michael Yang érdeklődését fejezte ki. A hívás jegyzője a hívásból azt tükrözi, hogy Michael Yang érdeklődött az alábbiakért: az Egyesült Államok THAAD2missile védelmi rendszere, a Dél-Kínai-tenger, a kínai deviza manipuláció, valamint a köz- és magánszféra közötti partnerségek, egy olyan téma, amelyet a kormány szakértője tárgyalott bizonytalan információk / nemzeti védelmi információk (NDI).
 
-Íme az első.
+Első Skype-hívását követően Michael Yang-val, az alperes február végén lépett kapcsolatba Ralph Stephensonnal (Stephenson), aki az alperes templomából tudta, és ki is tudta, hogy az alperes dolgozott a CIA-ban. Az alperes megkérdezte Stephensont, hogy segítsen neki kapcsolatba lépni valakivel, aki a CIA-n dolgozik Kínában. Stephenson a tárgyaláson tanúskodott, hogy az alperes kapcsolata kényelmetlen volt, és ennek megfelelően Stephenson bejelentette az alperes kapcsolatait Stephensonnal a CIA biztonsági ügynökeihez.
 
----
+2017 március elején az alperes és Michael Yang elrendelte, hogy az alperes utazzon a KNK-ba, hogy találkozzon Michael Yang és Ding úrral, feltételezhetően Michael Yang főnöke. Az utazást megelőzően az alperes arra kérte Michael Yang-t, hogy az alpereshez az alpereshez forduljon, hogy kommunikáljon Michael Yang-szal, míg az alperes a Kínában volt. Az alperes megkérdezte Michael Yang-t, hogy az iPhone-ra telepítse a Kínában népszerű kommunikációs alkalmazást. Az alperes azt kérte, hogy Michael Yang az iPhone-t egy lezárt borítékban hagyja el az alperes szállodájában, hogy az alperes szavaiban az alperes biztos legyen abban, hogy az iPhone „nem lett volna manipulálva.”
 
-Többször írtam már le a `super(props)`-ot életemben, mint, hogy azt tudni akarnád:
+Az alperes e-mail cseréjét követő napon a Yang Yang-val kapcsolatban az alperes egy iPhone-ra vonatkozó kérésére az alperes Washington DC-ben egy FedEx áruházba ment, ahol az alperes kilenc lapot olvasott be egy SD-kártyára. Ezek a dokumentumok osztályozatlanok voltak, és a CIA elemzési szabványaihoz, a katonai hírszerzési rövidítésekhez és más témákhoz kapcsolódtak. 2017. március 13-án, miután az alperes megérkezett Sanghajba, Kínába, az alperes e-mailt küldött Michael Yangnak, és a kilenc lapot beolvasta az SD kártyáról. Ahogyan az alperes azt mondta, ezek a mellékelt kilenc oldal „példaként” lettek csatolva.
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Az alperes a Kínai Népköztársasághoz intézett látogatása során több órán át találkozott Michael Yang és Ding úrral. Későbbi CIA-val és FBI-ügynökökkel folytatott interjújában az alperes elismerte, hogy ez a látogatás a KNK-ban az alperes megértette, hogy Michael Yang és Ding valójában Kína hírszerzési tisztviselői, akik USA kormány titkot keresnek.
 
-Természetesen a [class-okat érintő, tervezett újítások](https://github.com/tc39/proposal-class-fields) megspórolják nekünk a vesződést:
+2017 áprilisában az alperes ismét a KNK-ba utazott. Ezen az úton Michael Yang egy Samsung Galaxy Note 4 okostelefont adott az alperesnek, amely alperes titkos kommunikációs (covcom) eszközként ismert. Ez a covcom eszköz tartalmaz egy egyéni alkalmazást, amely lehetővé tette, hogy az alperes titkosított kommunikációt küldjön Yang Yang-nak a WeChat-on keresztül, amely a covcom-eszközre töltött program. Míg az alperes a KNK-ban volt, Michael Yang képezte az alperest, hogy hogyan használhatja a covcom-eszközt, hogy biztonságosan kommunikáljon Michael Yang-sal titkosított üzenetekkel.
 
+Az alperes ezután visszatért az Egyesült Államokba, először Chicagóban. Amikor megkérdezték a covcom készüléket, az alperes tévesen azt mondta a CBP tisztnek, hogy a covcom eszköz ajándékot kapott a feleségének. A CBP tisztjei megengedték, hogy az alperes megtartsa mind a 16,500 dollárt, mind a covcom eszközt, majd visszatért otthonába Leesburgban, Virginiaban.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
-
-Az ilyen típusú szintaxist akkor [tervezték](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers), amikor a React 0.13 megkapta a class-ok támogatását, még 2015-ben. A `konstruktorok` definiálása és a `super(props)` hívása mindig is ideiglenes megoldásnak számított, egészen addig, amíg a class alapú mezők egy kényelmes alternatívát nem nyújtottak.
-
-Térjünk vissza ugyanerre a példára, csak már ES2015-ös újdonságokkal:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Miért hívjuk meg a `super` föggvényt? Megtehetjük, hogy *nem* hívjuk meg? Ha muszáj meghívnunk, akkor mi történik, amikor nem adunk át neki `props` értéket? Létezik más argumentuma?** Derítsük ki!
-
----
-
-JavaScript-ben a `super` függvény a szülő osztály konstruktorára utal. (A példánkban, a `React.Component`-ben találhatóra mutat.)
-
-Még fontosabb tudni, hogy nem használhatjuk a `this` hivatkozást egy konstruktorban,amíg a szülő konstruktorának hívása meg nem történt. A JavaScript egyszerűen nem fogja engedni:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Can’t use `this` yet
-    super(props);
-    // ✅ Now it’s okay though
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Jó oka van a JavaScript-nek, hogy ha erőszakkal is, de lefuttatja velünk a szülő osztály konstruktorát mielőtt hozzáférünk a `this` hivatkozáshoz. Gondoljuk csak végig a class felépítését:
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴 This is disallowed, read below why
-    super(name);
-  }
-  greetColleagues() {
-    alert('Good morning folks!');
-  }
-}
-```
-
-Képzeljük el, hogy elkezdjük használni a `this`-t mielőtt *meghívnánk* a super függvényt. Egy hónappal később mondjuk megváltoztatjuk a `greetColleagues` függvényt, hogy az általa kiírt üzenet tartalmazza a személy nevét:
-
-```jsx
-  greetColleagues() {
-    alert('Good morning folks!');
-    alert('My name is ' + this.name + ', nice to meet you!');
-  }
-```
-
-De tegyük fel, hogy elfelejtjük, hogy a `this.greetColleagues()` függvény előbb meghívódik, mielőtt a `super()` függvény be tudná állítani a `this.name` változót. Ebben az esetben a `this.name` még csak nem is lett definiálva. Ahogyan azt láthatjuk is, nagyon nehéz ilyen típusú kóddal tervezni és gondolkodni.
-
-Hogy elkerüljük az ilyen buktatókat, a **JavaScript kényszerít minket, hogy ha a `this` hivatkozást szeretnénk használni, akkor előtte előszőr a `super` metódust *kell* meghívnunk.** Engedjük a szülőket, hogy tegyék a dolgukat! Ez a korlátozás a React komponensek meghatározására is érvényes:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Okay to use `this` now
-    this.state = { isOn: true };
-  }
-```
-
-Egy kérdés maradt hátra: miért kell átadnunk a `props` argumentumot?
-
----
-
-Azt hihetnéd, hogy azért szükséges, mert `props` átadásával a `super` függvény beállítja a `this.props` kezdeti értékét a `React.Component`-en belül
-
-```jsx
-// Inside React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Ez nincs is messze az igazságtól - valójában [ezt csinálja](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22).
-
-De, ha meghívjuk a `super()` függvényt a `props` argumentum nélkül, akkor is el fogjuk tudni érni a `this.props`-ot a `render` és az összes többi függvényen belül. (Ha nem hiszel nekem, próbáld ki!)
-
-Hogyan lehetséges *ez*? Ebből kiderül, hogy a **React hozzárendeli a `props` argumentumot a példányunkhoz, rögtön miután meghívta az adott példány *konstruktorát:**:
-
-```jsx
-  // Inside React
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-Tehát, még ha el is felejted a `props`-ot átadni a `super()` függvénynek, a React ezt megteszi helyetted. Ennek oka van.
-
-Amikor a React megkapta a class-ok támogatását, akkor nem csak az ES6 osztályok tulajdonságát kapta meg. A cél az volt, hogy olyan széles körben fedjük le az egyes osztályok absztakciókat, amennyire csak lehetséges. [Nem teljesen volt világos](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages), hogy mennyire lesz sikeres a ClojureScript-tel, CoffeeScript-tel, ES6-tal, Fable-el, Scala.js-el, TypeScript-tel, vagy más komponens alapú megoldással. Míg az ES6-ot igen, addig a React-ot szándékosan tervezték úgy, hogy ne függjön attól, hogy a `super()` függvény meg lett-e hívva vagy sem.
-
-Ez azt jelenti, hogy elég mostantól `super()` függvényt hívni a `super(props)` helyett?
-
-**Természetesen nem, mert zavaró.** Persze, a React gondoskodna a `this.props` *későbbi* hozzárendeléséről, miután a konstruktor meghívódott, de a `this.props` még mindig undefined lenne a `super` függvény meghívása és a konstruktor vége *között*:
-
-```jsx{14}
-// Inside React
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Inside your code
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 We forgot to pass props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined 
-  }
-  // ...
-}
-```
-Sokkal nagyobb kihívást jelenthet a hibakeresés is, ha ez valamelyik metódusban történik, amely a *konstruktorból* lett meghívva. **Ezért javaslom, hogy mindig adjuk át a super() függvénynek a `props`-t, még ha ez nem is szigorúan kötelező:** 
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ We passed props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Ezzel biztosak lehetünk abban, hogy a `this.props` beállításra kerül, még a konstruktor lefutása előtt.
-
------
-
-Van még egy dolog, amire biztosan kíváncsiak a React felhasználók.
-
-Biztosan megfigyelted már, hogy, amikor a Context API-t használod class-okon belül (még a régi `contextTypes` és az új `contextType` (React 16.6) esetében is), a `context`, mint második paraméter érkezik a konstruktorba.
-
-Miért is nem írjuk egyszerűen, hogy `super(props, context)`? Megtehetnénk, de a context nagyon ritkán kerül felhasználásra, ezért ez a szituáció nem merül fel túl gyakran.
-
-**A class-ok mezőit érintő újításoknak köszönhetően ezek a buktatók teljesen megszűnnek.** Létező konstuktor nélkül is minden argumentum automatikusan átadásra kerül a komponensek számára. Ennek köszönhetően használhatjuk a `state = {}` kifejezést, hogy hivatkozásokat ágyazhassunk be a `this.props`-ot és a `this.context`-et illetően, persze csak ha szükséges.
-
-A Hook-ok esetében egyáltalán nincs `super` függvényünk vagy `this` hivatkozásunk, de ez már egy másik történet, másik alkalomra.
+2017. április 25-én az alperes meglátogatott egy FedEx-áruházat egy olyan helyen, amely közel volt hazájához a Virginia Leesburgban. Felvétel a megfigyelésből

@@ -1,190 +1,23 @@
 ---
-title: Prečo používame super(props)?
-date: '2018-11-30'
-spoiler: Koniec bude prekvapujúci. 
+title: Trénujte ich na špionáž a potom sa prekvapte, keď vezmú peniaze na špehovanie vás!
+date: '2019-03-12'
+spoiler: Trénujte ich na špionáž a potom sa prekvapte, keď vezmú peniaze na špehovanie vás!
 ---
 
-Vraj je funkcia [Hooks](https://reactjs.org/docs/hooks-intro.html) v Reacte trendy. Ale blog začínam vysvetlením ako fungujú komponenty vytvorené pomocou *triedy*.
+Žalovaný je bývalý CIA a obranný spravodajca (DIA) operatívny a dodávateľ. Od roku 1981 do roku 2012 obžalovaný pracoval pre rôzne vládne agentúry v USA a zúčtoval kontraktorov v oblasti obrany. On tiež slúžil nejaký čas v aktívnej službe v americkej armáde. Po tom, čo žalovaný opustil svoju poslednú pozíciu kontraktora, bol v tom čase relevantný ako samostatne zárobkovo činná osoba, ktorá prevádzkovala svoje prevažne neúspešné poradenské služby.
 
-**Tieto veci *nie sú* dôležité na to, aby ste boli produktívni pri používaní Reactu. Ale budete radi ak viete, ako veci fungujú.**
+Väčšina dôkazov z pokusov sa zameriavala na kontakty a vzťahy žalovaného s Michaelom Yangom, občanom ČĽR, ktorý veril, že je spravodajským úradníkom spravodajskej služby ČĽR (PRCIS). Vo februári 2017 kontaktoval čínsky podnikový rebríček Richard Yang obžalovaného prostredníctvom spoločnosti LinkedIn, internetovej stránky sociálnych médií, ktorá sa používa na vytváranie pracovných miest. Richard Yang obžalovanému povedal, že vedie o možnej poradenskej práci v ČĽR. Potom, čo obžalovaný vyjadril záujem o túto možnú konzultačnú prácu, Richard Yang zariadil, aby sa odporca obrátil na osobu menom Michael Yang. Žalovaný, ktorý bol v Spojených štátoch, potom sa zapojil do Skype volania s Michaelom Yangom, ktorý sa nachádzal v ČĽR. Účelom tejto výzvy bolo určiť povahu informácií, ktoré Michael Yang hľadal. V tejto výzve Skype Michael Yang zrejme popísal odporcovi povahu informácií, ktoré hľadal Michael Yang. Obžalovaný si všimol témy, o ktoré prejavil záujem Michael Yang. Žalovaná strana, ktorá sa vyjadrila k tejto výzve, odzrkadľuje, že Michael Yang sa zaujímal o nasledovné: systém obrany Spojených štátov proti THAAD2, Juhočínske more, manipuláciu s menami zo strany ČĽR a verejno-súkromné ​​partnerstvá. mohli obsahovať utajované informácie / informácie o národnej obrane (NDI).
 
-Tu je prvý príspevok.
+Po počiatočnom hovore Skype s obžalovaným Michaelom Yangom, koncom februára, kontaktoval Ralph Stephenson (Stephenson), obžalovaný vedel z cirkvi obžalovaného a ktorý obžalovaný tiež vedel, že pracoval v CIA. Žalovaný požiadal Stephensona, aby mu pomohol kontaktovať niekoho z CIA pracujúcich na otázkach Číny. Stephenson svedčil v súdnom konaní, že kontakt obžalovaného ho robil nepohodlným, a preto Stephenson ohlásil kontakty odporcu so Stephensonom na bezpečnostných agentov CIA.
 
----
+Začiatkom marca 2017 obžalovaný a Michael Yang nariadili obžalovanému cestovať do ČĽR, aby sa stretli s Michaelom Yangom a pánom Dingom, zdanlivo šéfom Michael Yang. V predstihu na cestu, odporca požiadal Michael Yang, aby obžalovaný s Apple iPhone pre obžalovaného použiť na komunikáciu s Michael Yang, zatiaľ čo obžalovaný bol v ČĽR. Žalovaný požiadal Michaela Yanga, aby mal v iPhone nainštalovanú komunikačnú aplikáciu WeChat, ktorá je populárna v ČĽR. Žalovaný požiadal, aby Michael Yang nechal iPhone v zapečatenej obálke v hoteli odporcu, aby sa obžalovaný mohol ubezpečiť, že iPhone „nebol s ním manipulovaný“.
 
-Do kódu som napísal `super(props)` toľkokrát, že už to ani nerátam:
+Deň po výmene e-mailov s obžalovaným s Michaelom Yangom, ktorý sa týkal žiadosti žalovaného o iPhone, žalovaný odišiel do obchodu FedEx vo Washingtone D.C., kde mal odporca deväť strán dokumentov naskenovaných na SD kartu. Tieto dokumenty boli nezaradené a týkali sa štandardov analýzy CIA, akronymov vojenských spravodajských informácií a ďalších tém. 13. marca 2017, po obžalovaní prišiel do Šanghaja, Čína, obžalovaný poslal e-mail Michael Yang pripojenie deviatich strán naskenovaných dokumentov z SD karty. Ako to uviedol žalovaný, tieto pripojené deväť strán boli pripojené ako „príklady“.
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Počas tejto návštevy odporcu do ČĽR sa odporca niekoľko hodín stretol s Michaelom Yangom a pánom Dingom. Žalovaný vo svojich neskorších rozhovoroch s agentmi CIA a FBI uznal, že v priebehu tejto návštevy v ČĽR obžalovaný pochopil, že Michael Yang a pán Ding boli v skutočnosti úradníkmi spravodajskej služby ČĽR, ktorí hľadajú tajomstvá vlády USA.
 
-Samozrejme, nemusíme to robiť, keď použijeme [vlastnosti triedy](https://github.com/tc39/proposal-class-fields):
+V apríli 2017 žalovaný opäť odcestoval do ČĽR. Na tejto ceste Michael Yang poskytol obžalovanému smartphone Samsung Galaxy Note 4, ktorý obžalovaný opísal ako skryté komunikačné zariadenie (covcom). Toto zariadenie covcom zahŕňalo vlastnú aplikáciu, ktorá umožňovala žalovanému posielať šifrovanú komunikáciu Michaelovi Yangovi prostredníctvom programu WeChat, programu, ktorý bol načítaný na zariadení covcom. Kým obžalovaný bol v ČĽR, Michael Yang vyškolený obžalovaný o tom, ako používať covcom zariadenie bezpečne komunikovať s Michael Yang prostredníctvom šifrovaných správ.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+Žalovaný sa potom vrátil do Spojených štátov, prvý pristál v Chicagu. Keď sa spýtal na zariadenie covcom, odporca falošne povedal CBP dôstojníkom, že zariadenie covcom bolo darom pre jeho ženu. CBP dôstojníci dovolili obžalovanému, aby si ponechali obe $ 16,500 a zariadenie covcom a potom sa vrátili do svojho domova v Leesburgu vo Virgínii.
 
-Syntax podobná tomuto bola v Reacte [plánovaná](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#es7-property-initializers) už vo verzii 0.13, ktorý pridal podporu pre triedy v roku 2015. Použitie konštruktora a `super(props)` bolo len dočasným riešením dokiaľ vlastnosti triedy neposkytli pohodlnejšiu alternatívu.
-
-Ale vráťme sa k príkladu, ktorý používa iba funkcie štandardu ES2015:
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**Prečo vlastne používame funkciu `super`? Môžeme ju *ne*používať? Ak ju musíme používať, čo sa stane keď jej neposkytneme `props`? Používajú sa aj iné parametre?** Pozrime sa na to…
-
----
-
-V JavaScripte je funkcia `super` konštruktor triedy, ktorú rozširujeme. (V tomto príklade sa jedná o implementáciu `React.Component`.)
-
-Je dôležité vedieť, že v konštruktore nemôžeme používať `this` dovtedy, *pokým* nepoužijeme funkciu `super`:
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 Nemôžeme používať `this`
-    super(props);
-    // ✅ Až teraz môžeme používať `this`
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-Existuje dobrý dôvod, prečo JavaScript chce, aby sme zavolali konštruktor rozširovanej triedy *predtým*, než použijeme `this`. Predstavme si hierarchiu:
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴 Toto sa nesmie
-    super(name);
-  }
-  greetColleagues() {
-    alert('Dobrý deň, priatelia!');
-  }
-}
-```
-
-Teraz si predstavme, že použijeme `this` pred funkciou `super`. O mesiac neskôr chceme zmeniť funkciu `greetColleagues` tak, aby v správe bolo meno dotyčnej osoby:
-
-```jsx
-  greetColleagues() {
-    alert('Dobrý deň, priatelia!');
-    alert('Teší ma, volám sa ' + this.name + '!');
-  }
-```
-
-Dovtedy sme už aj zabudli, že funkcia `this.greetColleagues()` bola použitá predtým, než funkcia `super()` definovala `this.name`. To znamená, že vlastnosť `this.name` nie je definovaná! Ako vidíte, pri takom kóde sa veľmi ťažko premýšľa.
-
-Preto **JavaScript chce, aby sme zavolali `super` *predtým*, než použijeme `this`.** Nech si trieda, ktorá bola rozšírená, robí čo len chce! To obmedzenie platí aj na komponenty, ktoré sú definované pomocou triedy:
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ Až teraz môžeme používať `this`
-    this.state = { isOn: true };
-  }
-```
-
-Z toho vyplýva ďalšia otázka: prečo poskytujeme funkcii `super` parameter `props`?
-
----
-
-Aby mohol konštruktor triedy `React.Component` nastaviť `this.props`, mali by sme poskytnúť [funkcii `super` parameter `props`](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22):
-
-```jsx
-// Vo vnútri Reactu
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-Ale aj keby sme zavolali funkciu `super()` bez parametra `props`, stále by sme vedeli používať `this.props` v metódach ako je `render` a podobne. (Neveríte? Vyskúšajte to!)
-
-Ako to je možné, že *to* funguje? **React nastavuje `props` hneď potom, ako použije *váš* konštruktor:**
-
-```jsx
-// Vo vnútri Reactu
-const instance = new YourComponent(props);
-instance.props = props;
-```
-
-Takže aj keď zabudneme poskytnúť `props` funkcii `super()`, React ich nastaví. Aj na to je dôvod.
-
-Keď React pridal podporu pre triedy, nepridal podporu iba pre ES6. Cieľom bolo pridať podporu pre čo najviac abstrakcii triedy. A vtedy [nebolo jasné](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages), ako úspešné budú jazyky ako sú ClojureScript, CoffeeScript, ES6, Fable, Scala.js alebo TypeScript. React bol zámerne nestranný, a nevyžadoval použitie funkcie `super()` — aj keď sú triedy štandardu ES6 iné.
-
-Znamená to, že môžeme používať `super()` namiesto `super(props)`?
-
-**Ani nie, pretože je to mätúce.** Áno, React nastaví `this.props` *potom*, ako bol váš konštruktor spustený. Lenže *od* zavolania funkcie `super` *až* po koniec konštruktora nebude `this.props` definovaný:
-
-```jsx{14}
-// Vo vnútri Reactu
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// Vo vašom kóde
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 Zabudli sme na props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined 
-  }
-  // ...
-}
-```
-
-A je výzvou opraviť chybu, ktorá nastane, keď je nejaká funkcia volaná *v konštruktore*. **Práve preto vždy odporúčam používať `super(props)`:**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ Posktyli sme props
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-Vďaka tomu bude `this.props` dostupný ešte predtým, než bude konštruktor ukončený.
-
------
-
-Je ešte jedna vec, o ktorú sa môžu zaujímať dlhodobí používatelia Reactu.
-
-Mohli ste si všimnúť, že keď sa v triede použije Context API (či už pomocou zastaralého `contextTypes` alebo moderného `contextType`, pridaného vo verzii 16.6), `context` je druhým parametrom konštruktora.
-
-Prečo teda nepoužívame `super(props, context)`? Môžeme, ale `context` sa nepoužíva až tak často.
-
-**Vďaka vlastnostiam triedy je tento problém vyriešený.** Bez daného konštruktora sú všetky parametre dané rozširovanej triede. Kvôli tomu môže `state = {}` použiť `this.props` alebo `this.context`.
-
-Keď používame funkciu Hooks, nepoužívame ani `super`, ani `this`. Ale to je téma do budúcna.
+Dňa 25. apríla 2017 navštívil obžalovaný obchod FedEx v blízkosti svojho domu v Leesburgu vo Virgínii. Zábery z dohľadu

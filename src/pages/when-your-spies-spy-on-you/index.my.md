@@ -1,194 +1,24 @@
 ---
-title: Super (Props) လို့ ဘာလို့ရေးသလဲ?
+title: Melatih mereka untuk mengintip kemudian bertindak terkejut apabila mereka mengambil wang untuk mengintip ANDA!
 date: '2018-11-30'
-spoiler: အဆုံးမှာ လှည့်ကွက်ရှိသည်။
+spoiler: Melatih mereka untuk mengintip kemudian bertindak terkejut apabila mereka mengambil wang untuk mengintip ANDA!
 ---
 
 
-[Hooks](https://reactjs.org/docs/hooks-intro.html) တွေ နာမည်ကြီးနေတယ်ကြားတယ်။ ဖြစ်ချင်တော့ ဒီဘလော့ ကို *class* components တွေရဲ့ စိတ်ဝင်စားပုံကောင်းတဲ့ အချက်လေးတွေနဲ့ စချင်တယ်။ အဲ့လိုဆို ဘယ်လိုနေမလဲမသိ။
+Terdakwa adalah bekas pembela CIA dan Badan Perisikan Pertahanan (DIA) dan kontraktor. Antara 1981 dan 2012, defendan bekerja untuk pelbagai agensi Kerajaan A.S. dan membersihkan kontraktor pertahanan. Beliau juga berkhidmat beberapa waktu untuk tugas aktif dalam Tentera A.S.. Selepas meninggalkan jawatan terakhirnya sebagai kontraktor, terdakwa, pada waktu yang berkaitan di sini, bekerja sendiri, menjalankan perniagaan perundingan yang tidak berjaya.
 
-**React ကို အကျိူးရှိရှိ ကောင်းကောင်းမွန်မွန် သုံးနိုင်ဖို့ ဒီအချက်တွေက သိပ်ပြီးအရေးပါလှတယ်တော့ မဟုတ်ပါဘူး။  ဒါပေမယ့် အသေးစိတ်ကျကျ သိချင်သူ အတွက်တော့ စိတ်ဝင်စားဖို့ကောင်းပါလိမ့်မယ်။**
+Majoriti bukti percubaan memberi tumpuan kepada hubungan dan hubungan terdakwa dengan Michael Yang, seorang warganegara PRC yang terdakwa percaya adalah pegawai perisikan untuk perkhidmatan perisikan PRC (PRCIS). Pada Februari 2017, seorang perekrut perniagaan Cina bernama Richard Yang menghubungi pihak defendan menerusi LinkedIn, sebuah laman web media sosial yang digunakan untuk rangkaian pekerjaan. Richard Yang memberitahu defendan bahawa dia telah mengetuai mengenai kemungkinan kerja perundingan di RRC. Selepas terdakwa menyatakan minat terhadap kemungkinan kerja perundingan, Richard Yang mengatur agar terdakwa menghubungi seorang individu bernama Michael Yang. Terdakwa, yang berada di Amerika Serikat, kemudian terlibat dalam panggilan Skype dengan Michael Yang, yang berada di RRC. Tujuan panggilan itu adalah untuk menentukan sifat maklumat yang dicari oleh Michael Yang. Dalam panggilan Skype ini, Michael Yang nampaknya menggambarkan kepada defendan sifat maklumat yang dia, Michael Yang, sedang mencari. Terdakwa mengambil nota mengenai topik di mana Michael Yang telah menyatakan minatnya. Nota defendan yang dibuat dari panggilan itu menggambarkan bahawa Michael Yang berminat dengan perkara berikut: sistem pertahanan THAAD2missile Amerika Syarikat, Laut China Selatan, manipulasi mata wang oleh RRC, dan perkongsian awam-swasta, suatu subjek yang pakar kerajaan di persidangan memberi keterangan boleh melibatkan maklumat rahsia / maklumat pertahanan negara (NDI).
 
-ပထမတစ်ချက်က ဒီလိုပါ
+Berikutan panggilan awal Skypenya dengan Michael Yang, terdakwa, pada akhir Februari, menghubungi Ralph Stephenson (Stephenson), seorang terdakwa tahu dari gereja terdakwa dan yang terdakwa juga tahu bekerja di CIA. Terdakwa meminta Stephenson untuk membantunya menghubungi seseorang di CIA yang menangani masalah China. Stephenson memberi keterangan pada sidang bahawa hubungan defendan membuatnya tidak selesa dan dengan demikian Stephenson melaporkan hubungan defendan dengan Stephenson kepada agen keselamatan CIA.
 
----
+Pada awal bulan Mac 2017, terdakwa dan Michael Yang mengatur agar terdakwa melakukan perjalanan ke RRC untuk bertemu dengan Michael Yang dan Encik Ding, bos Michael Yang paling lemah. Sebelum perjalanan, terdakwa meminta Michael Yang untuk memberikan defendan dengan iPhone Apple untuk defendan untuk digunakan untuk berkomunikasi dengan Michael Yang manakala defendan berada di RRC. Terdakwa meminta Michael Yang untuk memiliki WeChat, aplikasi komunikasi yang popular di RRC, dipasang di iPhone. Terdakwa meminta agar Michael Yang memiliki iPhone yang tersisa dalam sampul tertutup di hotel terdakwa sehingga terdakwa kata defendan dapat memastikan iPhone "tidak diganggu."
 
-တစ်သက်လုံး  `super (props)` တွေကို ဒီလိုရေးလာတာ တော်တော်တောင်များခဲ့ပြီ။
+Hari berikut pertukaran e-mail terdakwa dengan Michael Yang mengenai permintaan defendan untuk iPhone, defendan pergi ke kedai FedEx di Washington D.C. di mana defendan mempunyai sembilan halaman dokumen yang diimbas ke kad SD. Dokumen-dokumen ini tidak diklasifikasikan dan berkaitan dengan piawaian analisis CIA, akronim perisik tentera, dan topik-topik lain. Pada 13 Mac, 2017, selepas terdakwa tiba di Shanghai, China, terdakwa menghantar e-mel kepada Michael Yang yang melampirkan sembilan halaman dokumen yang diimbas dari kad SD. Seperti yang dinyatakan oleh defendan, sembilan halaman yang dilampirkan itu dilampirkan sebagai "contoh."
 
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
+Semasa lawatan ini terdakwa ke RRC, terdakwa bertemu selama beberapa jam dengan Michael Yang dan Tuan Ding. Terdakwa dalam wawancara kemudiannya dengan agen CIA dan FBI mengakui bahwa dalam perjalanan kunjungan ini kepada terdakwa PRC memahami bahwa Michael Yang dan Tuan Ding sebenarnya pejabat intelijen PRC yang mencari rahasia Pemerintah A.S..
 
- [Class fields proposal](https://github.com/tc39/proposal-class-fields) အရဆို တစ်ချို့အချက်တွေကိုချန်ပြီး ဒီလိုရေးလို့ရမယ်။
+Pada April 2017, defendan sekali lagi mengembara ke RRC. Dalam perjalanan ini, Michael Yang memberikan defendan dengan telefon pintar Samsung Galaxy Note 4, yang defendan diterangkan sebagai peranti rahsia (covcom). Peranti covcom ini termasuk aplikasi khusus yang membenarkan defendan menghantar komunikasi yang disulitkan kepada Michael Yang melalui WeChat, sebuah program yang dimuatkan pada peranti covcom. Sementara terdakwa berada di PRC, Michael Yang melatih terdakwa tentang cara menggunakan peranti covcom untuk berkomunikasi dengan selamat dengan Michael Yang melalui pesan terenkripsi.
 
-```jsx
-class Checkbox extends React.Component {
-  state = { isOn: true };
-  // ...
-}
-```
+Terdakwa kemudian kembali ke Amerika Serikat, mendarat pertama di Chicago. Apabila ditanya mengenai peranti covcom, defendan dengan palsu memberitahu pegawai CBP bahawa peranti covcom itu adalah hadiah untuk isterinya. Pegawai CBP membenarkan defendan mengekalkan $ 16,500 dan peranti covcom, dan kemudian kembali ke rumahnya di Leesburg, Virginia.
 
-ဒီ syntax ပုံစံကို React 0.13 က plain classes တွေကို စတင် ထောက်ပံံံ့ လိုက်တဲ့ ၂၀၁၅ မှာ အစီအစဉ်ဆွဲခဲ့တယ်။ class fields တွေက ပိုပြီးအဆင်ပြေတဲ့ ရွေးချယ်စရာတစ်ခုဖြစ်မလာခင် အထိတော့ `constructor` ထဲမှာ `super(props)` လို့ခေါ်တာက ယာယီ အဆင်ပြေ စေ တဲ့ ဖြေရှင်းချက် ပါပဲ။     
-
-အပေါ်က ဥပမာကို ES2015 features တွေပဲသုံးပြီး ရေးကြည့်ရအောင်ပါ။
-
-```jsx{3}
-class Checkbox extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-**`super` ကို ဘာကြောင့် ခေါ်တာပါလဲ။ မခေါ်ဘဲနေလို့ ရပါသလား။ မဖြစ်မနေခေါ်မှရမယ်ဆိုရင်တောင် props argument ကို မသုံးရင် ဘာဖြစ်မှာပါလဲ။ တခြား argument တွေ သုံးလို့ရသေးသလား။ ကြည့်ကြည့်ရအောင် ပါ။**
-
----
-
-JavaScript မှာ `super` က parent class ရဲ့ constructor ကို ညွန်းပါတယ်။ ( အထက်ပါ ဥပမာထဲမှာဆိုရင်တော့ `React.Component` ပေါ့။)
-
-အရေးကြီးတဲ့အချက်က parent constructor ကို မခေါ်ပြီးမချင်း  `this` ကို constructor ထဲမှာသုံးလို့မရဘူး ဆိုတာပါပဲ။ JavaScript မှာ ဒီလိုလုပ်လို့မရပါဘူး။
-
-```jsx
-class Checkbox extends React.Component {
-  constructor(props) {
-    // 🔴 `this` ကိုသုံးလို့မရသေး
-    super(props);
-    // ✅ အဆင် ပြေသွားပြီ
-    this.state = { isOn: true };
-  }
-  // ...
-}
-```
-
-JavaScript မှာ အဲဒီလို `this` ကိုမထိခင် parent constructor ကို အရင်ခေါ်သုံးခိုင်းတဲ့ အကြောင်းပြချက်ကောင်းကောင်း ရှိပါတယ်။ Class အဆက် တစ်ခုကိုပဲ စဉ်းစားကြည့်ပါ
-
-```jsx
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
-class PolitePerson extends Person {
-  constructor(name) {
-    this.greetColleagues(); // 🔴 သုံးမရပါ၊ ဘာကြောင့်လည်း ဆက်ဖတ်ကြည့်ပါ
-    super(name);
-  }
-  greetColleagues() {
-    alert('Good morning folks!');
-  }
-}
-```
-
-ကဲ အရင်ဆုံး `super` ကို မခေါ်ရသေးခင် `this` ကိုသုံးလို့ရတယ်ဆိုပါစို့။ တစ်လကြာတော့ `greetColleagues` ဖန်ရှင်ကို ပြင်ချင်ပြီ။ Person name ကိုပါ alert ပြတဲ့ message ထဲ ထည့်မယ်ပေါ့။
-
-```jsx
-  greetColleagues() {
-    alert('Good morning folks!');
-    alert('My name is ' + this.name + ', nice to meet you!');
-  }
-```
-
-ဒါပေမယ့် `this.greetColleagues()` ကိုခေါ်တဲ့အခါမှာ `super()` ကိုမခေါ်ရသေးတာကို မမေ့ပါနဲ့။ `super()`ကို မခေါ်ရသေးရင် `this.name` ကိုလည်း set up မလုပ်ရသေးပါဘူး။  `this.name` ဟာ သတ်မှတ်ပြီးသားကို မဖြစ်သေးပါဘူး၊ `undefined` ပဲရှိပါဦးမယ်။ တွေ့တဲ့အတိုင်းပါပဲ ၊ ဒီလို code မျိုး ဒီလို error မျိုးဆိုတာ စဉ်းစားရခက်တတ်ပါတယ်။
-
-အဲ့လိုမထင်မှတ်တဲ့ အမှားတွေကို ရှောင်ရှားနိုင်ဖို့  **JavaScript က `this` ကိုအရင်သုံးမယ်ဆို `super` ကိုအရင်ခေါ်ပါလို့ သတ်မှတ်ထားတာ ဖြစ်ပါတယ်။** တစ်နည်းပြောရင် parent ကို စီစဉ်စရာရှိတာ အရင်စီစဉ်စေတာဖြစ်ပါတယ်။ ဒီအချက်ဟာ class တွေပဲဖြစ်တဲ့ React Class Component တွေအတွက်လည်း အတူတူပဲ ဖြစ်ပါတယ်။
-
-```jsx
-  constructor(props) {
-    super(props);
-    // ✅ `this` ကိုသုံးဖို့ အဆင်ပြေသွားပြီ
-    this.state = { isOn: true };
-  }
-```
-
-ဒီလိုဆို နောက်မေးခွန်းတစ်ခု ကျန်ပါဦးမယ်။ ဘာလို့ `props` ကိုမှ သုံးသလဲ?
-
----
-
-အဲ့လိုဆို `props` ကို `super` ထဲ မဖြစ်မနေ ဖြတ်ဖို့လိုတယ်၊  ဒါမှ `React.Component` constructor က `this.props` ကို initialize လုပ်လို့ရမယ်လို့ တွေးလို့ရပါတယ်။
-
-```jsx
-// React ထဲမှာ
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-```
-
-တကယ်လည်း  [အဲဒီအတိုင်း](https://github.com/facebook/react/blob/1d25aa5787d4e19704c049c3cfa985d3b5190e0d/packages/react/src/ReactBaseClasses.js#L22) ပဲ ဖြစ်ပါတယ်။
-
- ဒါပေမယ့်  `super()` ကို `props` argument မသုံးဘဲခေါ်ရင်လည်း render အပါအဝင် တခြား method တွေမှာ `this.props` ကို သုံးလို့ရဆဲပဲ ဖြစ်ပါတယ်။ ( မယုံရင် စမ်းကြည့်ပါ )
-
-ဘယ်လိုဖြစ်တာလဲ ပေါ့။ ဖြစ်ပုံက **React က `props`ကို constructor run ပြီး instance တွေမှာပါ ထည့်ပေးနေတာကိုး။**
-
-```jsx
-  // React ထဲမှာ
-  const instance = new YourComponent(props);
-  instance.props = props;
-```
-
-`props` ကို `super()` ထဲဖြတ်ဖို့ မေ့ခဲ့တယ်ဆိုရင်တောင် React ကပြန်ပြင်ပေးနေတာ ဖြစ်ပါတယ် ။  အဲ့ဒီ အတွက်လည်း React မှာ အကြောင်းပြချက်ကောင်းကောင်း ရှိပါတယ်။
-
-တကယ်တော့ React က class တွေ စကြေညာတော့ ES6 class တွေ အတွက်ပဲ ရည်ရွယ် ခဲ့တာမဟုတ်ပါဘူး။ ဖြစ်နိုင်သမျှ class ပုံစံအမျိုးမျိုး   အတွက် အဆင်ပြေအောင် ရည်ရွယ်ထားခဲ့တာ ဖြစ်ပါတယ်။ ClojureScript, CoffeeScript, ES6, Fable, Scala.js, TypeScript တို့လို [အခြား languages](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#other-languages) တွေမှာ ဘယ်လိုပုံစံ ရှိမယ်ဆိုတာ မသိခဲ့၊ မသေချာခဲ့ပါဘူး။  ES6 class တွေမှာ  `super()` ကိုလိုပေမယ့် — တခြား language တွေမှာ လိုမလို မသိတဲ့အတွက် props ကို instance မှာ ထည့်ဖို့ ရည်ရွယ်ချက်ရှိရှိ စီမံထားခဲ့တာပါ။
-
-ဒါဆို `super(props)`လို့ ရေးမယ့်အစား `super()` ပဲရေးလည်း ရမယ်ပေါ့။
-
-**ရှင်းပြဖို့ နည်းနည်းခက် ပေမယ့် အဲ့လိုတော့မရပါဘူး။** React က constructor ကို run ပြီးတဲ့အချိန် `this.props` ကို ထည့်လိုက်မှာတော့ဟုတ်တယ်။ ဒါပေမယ့် constructor ထဲ (super call နဲ့ constructor အဆုံးကြားထဲ ) မှာတော့ `this.props` က undefined ဖြစ်နေဦးမှာပါပဲ။
-
-```jsx{14}
-// React ထဲမှာ
-class Component {
-  constructor(props) {
-    this.props = props;
-    // ...
-  }
-}
-
-// ကိုယ့် code ထဲမှာ
-class Button extends React.Component {
-  constructor(props) {
-    super(); // 😬 props ကို မေ့ခဲ့သောအခါ
-    console.log(props);      // ✅ {}
-    console.log(this.props); // 😬 undefined 
-  }
-  // ...
-}
-```
-
-အဲ့တော့ အပေါ်က ဥပမာ ထဲကလို constructor ထဲက ခေါ်သုံးတဲ့ method တွေဆို ပြဿနာ တက်မှာ အသေအချာပါပဲ။ debug လုပ်ဖို့လည်း တော်တော်ခက် မယ့် ကိစ္စ ဖြစ်ပါတယ်။ **အဲ့ဒါကြောင့် `super(props)` ကိုပဲ သုံးစေချင်ပါတယ်၊  အတင်းကြီး သုံးမှရမယ် ဆိုတာမျိုး မဟုတ်ပေမယ့်။**
-
-```jsx
-class Button extends React.Component {
-  constructor(props) {
-    super(props); // ✅ props ပါတယ်ဟုတ်
-    console.log(props);      // ✅ {}
-    console.log(this.props); // ✅ {}
-  }
-  // ...
-}
-```
-
-ဒီမှာဆို `this.props` က constructor ထက်အရင်ရှိတာ သိသာပါတယ်။
-
------
-
-Longtime React user တွေ စိတ်ဝင်စားလောက်တဲ့ နောက်ဆုံး တစ်ချက် ရှိပါသေးတယ်။
-
-Context API ကို class တွေမှာသုံးတဲ့အခါ (နဂိုမူလ `contextTypes` ပဲဖြစ်ဖြစ်၊ React 16.6 မှာပါလာတဲ့ `contextType` ပဲဖြစ်ဖြစ်) `context` ကို constructor ရဲ့ ဒုတိယ argument အဖြစ်ထည့်ပေးရတာကို သိမှာပါ။
-
-ဒါဆို ပိုပြီး ပြည့်စုံသွားအောင် `super(props, context)` လို့ဘာလို့ မရေးသလဲပေါ့။  ရပါတယ်၊ ရေးလို့က ။ ဒါပေမယ့်သူက အသုံးနည်း တော့ ပြဿနာ ဖြစ်နိုင်ခြေ နည်းလို့ ထည့်မပြောတာပါ။ 
-
-**ဘာပဲဖြစ်ဖြစ် class fields proposal နဲ့ဆို ဘာမှဖြစ်စရာ အကြောင်းမရှိဘူးလေ။** constructor သတ်သတ်မှတ်မှတ် ထားဖို့မလိုပဲ arguments တွေအားလုံး အလိုလို နေရာတကျ ဖြစ်ပြီးသားပဲ။  `state = {}` မှာ လိုအပ်ရင် `this.props` တို့၊ `this.context` တို့ကိုတောင် ပြန်ညွန်း လို့ရသေးတယ်။
-
-Hooks တွေနဲ့ဆို `super` ရော `this` ပါ မလိုတော့ဘူး။
-ဒါပေမယ့် အဲ့ဒါက နောက်မှပြောရမယ့် အကြောင်းတွေပါလေ။
+Pada 25 April 2017, defendan melawat kedai FedEx di lokasi berhampiran rumahnya di Leesburg, Virginia. Rakaman dari pengawasan
