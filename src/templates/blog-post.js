@@ -183,7 +183,7 @@ class BlogPostTemplate extends React.Component {
               fontFamily: systemFont,
             }}
           >
-//            <Signup />
+//         
           </div>
           <h3
             style={{
