@@ -23,9 +23,9 @@ class Bio extends React.Component {
           }}
         />
         <p style={{ maxWidth: 310 }}>
-          A website by{' '}
-          <a href="https://www.d3fcon.com/">D3fcon</a>.{' '}
-          Cyber security news, information, world events and anything that raises our D3fcon Level!
+          A website by <a href="https://www.d3fcon.com/">D3fcon</a>. Cyber
+          security news, information, world events and anything that raises our
+          D3fcon Level!
         </p>
       </div>
     );

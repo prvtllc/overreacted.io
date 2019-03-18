@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "D3fcon.com RSS Feed",
+            title: 'D3fcon.com RSS Feed',
           },
         ],
       },
