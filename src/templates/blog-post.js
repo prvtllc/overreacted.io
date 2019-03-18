@@ -110,7 +110,7 @@ class BlogPostTemplate extends React.Component {
       url: `https://www.d3fcon.com${this.props.location.pathname}`,
       identifier: `${this.props.location.pathname}`,
       title: post.frontmatter.title,
-    }
+    };
     let {
       previous,
       next,
