@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import get from 'lodash/get';
 //Disqus
-import { DiscussionEmbed } from "disqus-react";
+import { DiscussionEmbed } from 'disqus-react';
 import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
@@ -94,18 +94,18 @@ class Translations extends React.Component {
 class BlogPostTemplate extends React.Component {
   render() {
     //Disqus Portion - moved duplicate code under
-  //  const post = this.props.data.markdownRemark;
-  //  const siteTitle = get(this.props, "data.site.siteMetadata.title");
-  //  const { previous, next } = this.props.pathContext;
-  //  const disqusShortname = "d3fcon";
-  //  const disqusConfig = {
-  //    identifier: post.id,
-  //    title: post.frontmatter.title,
-  //End of Disqus more bottom of page   
+    //  const post = this.props.data.markdownRemark;
+    //  const siteTitle = get(this.props, "data.site.siteMetadata.title");
+    //  const { previous, next } = this.props.pathContext;
+    //  const disqusShortname = "d3fcon";
+    //  const disqusConfig = {
+    //    identifier: post.id,
+    //    title: post.frontmatter.title,
+    //End of Disqus more bottom of page
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-  //  const { previous, next } = this.props.pathContext;
-  //  const disqusShortname = "d3fcon";
+    //  const { previous, next } = this.props.pathContext;
+    const disqusShortname = 'd3fcon';
     const disqusConfig = {
       url: `https://www.d3fcon.com${this.props.location.pathname}`,
       identifier: `${this.props.location.pathname}`,
@@ -187,9 +187,7 @@ class BlogPostTemplate extends React.Component {
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
-              <p>
-
-              </p>
+              <p />
             </footer>
           </article>
         </main>
@@ -200,7 +198,7 @@ class BlogPostTemplate extends React.Component {
               fontFamily: systemFont,
             }}
           >
-//         
+            //
           </div>
           <h3
             style={{
