@@ -107,7 +107,8 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext;
     const disqusShortname = "d3fcon";
     const disqusConfig = {
-      identifier: post.id,
+      url: 'https://www.d3fcon.com${this.props.location.pathname}',
+      identifier: '${this.props.location.pathname}',
       title: post.frontmatter.title,
     };
     let {
@@ -248,8 +249,8 @@ class BlogPostTemplate extends React.Component {
                 )}
               </li>
             </ul>
-            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
           </nav>
+          <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </aside>
       </Layout>
     );
