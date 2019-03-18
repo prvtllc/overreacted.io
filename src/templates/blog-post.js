@@ -109,6 +109,7 @@ class BlogPostTemplate extends React.Component {
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
+    };
     let {
       previous,
       next,
