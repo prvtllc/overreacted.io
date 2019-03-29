@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'D3fcon',
-    author: 'Dan Abramov',
+    author: 'Domingo Rivera',
     description: 'Computer Security, breaches, opinions.',
     siteUrl: 'https://www.d3fcon.com',
     social: {
