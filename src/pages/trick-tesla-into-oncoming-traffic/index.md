@@ -3,7 +3,7 @@ title: Tesla Autopilot Tricked Into Steering Into Oncoming Traffic
 date: '2019-04-02'
 spoiler: Researchers have devised a simple attack that might cause a Tesla to automatically steer into oncoming traffic under certain conditions. The proof-of-concept exploit works not by hacking into the car’s onboard computing system. Instead, it works by using small, inconspicuous stickers that trick the Enhanced Autopilot of a Model S 75 into detecting and then following a change in the current lane. Researchers from Tencent’s Keen Security Lab recently reverse-engineered several of Tesla’s automated processes to see how they reacted when environmental variables changed.
 ---
-![UConn](./Tesla.jpg.jpg)
+![UConn](./Tesla.jpg)
 
 Researchers have devised a simple attack that might cause a Tesla to automatically steer into oncoming traffic under certain conditions as reported on [BlastBoard](https://www.blastboard.com/t/researchers-trick-tesla-autopilot-into-steering-into-oncoming-traffic/35). The proof-of-concept exploit works not by hacking into the car’s onboard computing system. Instead, it works by using small, inconspicuous stickers that trick the Enhanced Autopilot of a Model S 75 into detecting and then following a change in the current lane. Researchers from Tencent’s Keen Security Lab recently reverse-engineered several of Tesla’s automated processes to see how they reacted when environmental variables changed.
 
