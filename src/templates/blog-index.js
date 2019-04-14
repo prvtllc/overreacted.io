@@ -28,7 +28,7 @@ class BlogIndexTemplate extends React.Component {
             <Panel>
               These articles have been{' '}
               <a
-                href="https://github.com/gaearon/overreacted.io#contributing-translations"
+                href="https://www.d3fcon.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
