@@ -1,5 +1,5 @@
 ---
-title: Ecuador Did Not Like How Assange Treated His Cat
+title: Amazon and Google Dont Want Law That Prohibits Secret Recordings
 date: '2019-04-13'
 spoiler: Illinois State Senate passed the Keep Internet Devices Safe Act, a bill that would ban manufacturers of devices that can record audio from doing so remotely without disclosing it to the customer. But after lobbying from trade associations that represent the interests of Google, Amazon, makers of the microphone-enabled Google Home and Alexa smart speakers, respectively, and Microsoft, among other companies, the interests of big tech won out.
 ---

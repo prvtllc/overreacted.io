@@ -1,5 +1,5 @@
 ---
-title: Amazon and Google Dont Want Law That Prohibits Secret Recordings
+title: Ecuador Did Not Like How Assange Treated His Cat
 date: '2019-04-13'
 spoiler: The BBC reports that Ecuador's foreign minister Jose Valencia has been sharing complaints about Julian Assange's conduct during his stay in Ecuador's embassy, for example, that Julian Assange damaged the facilities by riding his skateboard and playing football, despite being told not to do so.
 ---
