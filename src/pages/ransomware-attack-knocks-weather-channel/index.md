@@ -1,6 +1,6 @@
 ---
 title: Ransomware Attack Knocks The Weather Channel Off the Air
-date: '2019-04-19'
+date: '2019-04-25'
 spoiler: After its broadcast was disrupted, the weather news service sent a tweet saying it had been the victim of a malicious software attack, adding that federal law-enforcement officials were investigating the matter. A spokesman for the Federal Bureau of Investigation said the incident was a ransomware attack
 ---
 ![Secret Recordings](./wsj.png)
